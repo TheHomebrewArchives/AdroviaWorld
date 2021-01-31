@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Boons | Adrovia</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="boons.html">Boons</a></li>
+      </ul>
+    </div>
+   
+    <div class="search">
+      <input type="text" id="myInput" onkeyup="search()" placeholder="Search for boons..">
+    </div>
+
+    <div class="selection" id="boonsList">
+      
+      <table id="myTable">
+        <colgroup>
+          <col style="width:20%;">
+          <col style="width:10%;">
+          <col style="width:15%;">
+          <col style="text-align: justify; a {display:inline-block;}">
+          <col style="display:none;">
+        </colgroup>
+        <tr>
+          <th onclick="sortTable(4)">Name</th>
+          <th onclick="sortTable(1)">Cost</th>
+          <th onclick="sortTable(2)">Type</th>
+          <th onclick="sortTable(3)">Prerequisites</th>
+          <th></th>
+        </tr>
+      </table>
+    </div>
+    <div class="boons">
+      <h2 id="boonDisplayName">Boon Title</h2>
+      <h3 id="boonDisplayType">Boon Type</h3>
+      <p id="boonCost">Boon Cost.</p>
+      <p id="boonDisplayPrerequisite">Please choose a boon.</p>
+      <p id="boonDisplayDescription">Description</p>
+    </div>
+    <script src="boons.js"></script>
+    <script src="boonArray.js"></script>
+  </body>
+</html>
