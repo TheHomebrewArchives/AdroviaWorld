@@ -84,7 +84,7 @@ body {
   padding: 8px;
   width: 80%;
   position: sticky;
-  }
+}
 
 .search input:focus {
   border: none;
@@ -138,4 +138,8 @@ body {
 .boons a:hover {
   background-color: rgb(22, 22, 22);
   color: rgb(172, 172, 172);
+}
+
+.boonDisplayDescription a {
+  display: inline;
 }

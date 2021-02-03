@@ -16,9 +16,12 @@
     </div>
    
     <div class="search">
-      <input type="text" id="myInput" onkeyup="search()" placeholder="Search for boons..">
+      <input type="text" id="myInput1" onkeyup="search(0)" placeholder="Search for boon names...">
+      <input type="text" id="myInput2" onkeyup="search(1)" placeholder="Search for boon cost...">
+      <input type="text" id="myInput3" onkeyup="search(2)" placeholder="Search for boon type...">
+      <input type="text" id="myInput4" onkeyup="search(3)" placeholder="Search for boon prerequisites...">
     </div>
-
+    
     <div class="selection" id="boonsList">
       
       <table id="myTable">
@@ -43,7 +46,7 @@
       <h3 id="boonDisplayType">Boon Type</h3>
       <p id="boonCost">Boon Cost.</p>
       <p id="boonDisplayPrerequisite">Please choose a boon.</p>
-      <p id="boonDisplayDescription">Description</p>
+      <p id="boonDisplayDescription" class="boonDisplayDescription">Description</p>
     </div>
     <script src="boons.js"></script>
     <script src="boonArray.js"></script>
