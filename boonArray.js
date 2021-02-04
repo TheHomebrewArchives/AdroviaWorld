@@ -73,7 +73,7 @@ var a1 = [{
     {
       "name":"Inner Arcana", 
       "cost":2,
-      "prereq":"1st level sorcerer", 
+      "prereq":"Sorcerer level 1st", 
       "desc":"You add both your Intelligence and Charisma modifier to Arcana skill checks", 
       "type":"General Boon",
       "id":9
@@ -573,5 +573,373 @@ var a1 = [{
       "desc":"When you are reduced to 0 hit points, you do not receive a level of exhaustion.",
       "type":"Combat Boon",
       "id":71
+    },
+    {
+      "name":"Improved Critical", 
+      "cost":3,
+      "prereq":"Fighter level 6th",
+      "desc":"When you score a critical hit with a weapon attack, you can roll the damage dice for that attack three times. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":72
+    },
+    {
+      "name":"Critical Mastery", 
+      "cost":3,
+      "prereq":"At least two other Critical Boons <br>Character level 8th",
+      "desc":"When you score a critical hit with a weapon attack, you may apply the effects of two Critical Boons to that hit.",
+      "type":"Critical Boon",
+      "id":73
+    },
+    {
+      "name":"Bleeding Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Character level 8th",
+      "desc":"When you score a critical hit with a weapon attack, the creature you hit cannot heal hit points until the end of your next turn. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":74
+    },
+    {
+      "name":"Blinding Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>",
+      "desc":"When you score a critical hit with a weapon attack, the creature you hit must succeed on a DC half the damage you dealt with the weapon's damage dice Constitution saving throw or become blind until the end of your next turn. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":75
+    },
+    {
+      "name":"Disarming Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>",
+      "desc":"When you score a critical hit with a weapon attack against a creature, you may immediately make a Disarm Maneuver as a reaction against that creature. You have advantage on this maneuver check.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":76
+    },
+    {
+      "name":"Forceful Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Strength 13 or higher",
+      "desc":"When you score a critical hit with a weapon attack against a creature, you may immediately attempt a Shove Maneuver as a reaction against that creature.You have advantage on this maneuver check.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":77
+    },
+    {
+      "name":"Stunning Critical", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Character level 12th",
+      "desc":"When you score a critical hit with a weapon attack, the creature you hit must succeed on a DC half the damage you dealt with the weapon's damage dice Constitution saving throw. On a failed save, they become stunned until the beginning of your next turn.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":78
+    },
+    {
+      "name":"Threatening Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>",
+      "desc":"When you score a critical hit with a weapon attack, the creature you hit must make a DC half the damage you dealt with the weapon's damage dice Wisdom saving throw. On a failed save, they are frightened by you until the end of their next turn.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":79
+    },
+    {
+      "name":"Tiring Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>",
+      "desc":"When you score a critical hit with a weapon attack, the creature you hit must make a DC half the damage you dealt with the weapon's damage dice Constitution saving throw. On a failed save, they take one level of exhaustion.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":80
+    },
+    {
+      "name":"Tripping Critical", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>",
+      "desc":"When you score a critical hit with a weapon attack, you can immediately attempt a Trip combat maneuver as a reaction. You have advantage on this check.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "type":"Critical Boon",
+      "id":81
+    },
+    {
+      "name":"Armed Caster", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.",
+      "type":"Spellcasting Boon",
+      "id":82
+    },
+    {
+      "name":"Basic Magic", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn one cantrip of your choice from that class's spell list. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+      "type":"Spellcasting Boon",
+      "id":83
+    },
+    {
+      "name":"Minor Magic", 
+      "cost":1,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(83)' href='#'>Basic Magic</a>",
+      "desc":"Choose a class: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. You learn one 1st level spell of your choice from that class's spell list. You may cast this spell once, and gain the ability to do so again when you finish a long rest. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, paladin, sorcerer, or warlock; Wisdom for cleric druid, or ranger; or Intelligence for wizard.",
+      "type":"Spellcasting Boon",
+      "id":84
+    },
+    {
+      "name":"Major Magic", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(84)' href='#'>Minor Magic</a> Character level 4th",
+      "desc":"Choose a class: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. You learn one 2nd level spell of your choice from that class's spell list. You may cast this spell once, and gain the ability to do so again when you finish a long rest. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, paladin, sorcerer, or warlock; Wisdom for cleric druid, or ranger; or Intelligence for wizard.",
+      "type":"Spellcasting Boon",
+      "id":85
+    },
+    {
+      "name":"Ultimate Magic", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(85)' href='#'>Major Magic</a> Character level 6th",
+      "desc":"Choose a class: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. You learn one 3rd level spell of your choice from that class's spell list. You may cast this spell once, and gain the ability to do so again when you finish a long rest. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, paladin, sorcerer, or warlock; Wisdom for cleric druid, or ranger; or Intelligence for wizard.",
+      "type":"Spellcasting Boon",
+      "id":86
+    },
+    {
+      "name":"Elemental Adept", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"When you gain this boon, choose one of the following damage types: acid, cold, fire, lightning, poison, or thunder. <br><br>Spells you cast ignore resistance to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type.",
+      "type":"Spellcasting Boon",
+      "id":87
+    },
+    {
+      "name":"Elemental Expert", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a> Character level 5th",
+      "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept.</a><br><br>Spells you cast ignore Immunity to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>.",
+      "type":"Spellcasting Boon",
+      "id":88
+    },
+    {
+      "name":"Elemental Potency", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a> Character level 5th",
+      "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept.</a><br><br>When you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>.",
+      "type":"Spellcasting Boon",
+      "id":89
+    },
+    {
+      "name":"Energy Adept", 
+      "cost":2,
+      "prereq":"None, character level 7th",
+      "desc":"When you gain this boon, choose one of the following damage types: force, necrotic, psychic, or radiant. <br><br>Spells you cast ignore resistance to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type.",
+      "type":"Spellcasting Boon",
+      "id":90
+    },
+    {
+      "name":"Energy Expert", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a> Character level 11th",
+      "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept.</a><br><br>Spells you cast ignore Immunity to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>.",
+      "type":"Spellcasting Boon",
+      "id":91
+    },
+    {
+      "name":"Energy Potency", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Elemental Adept</a> Character level 11th",
+      "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept.</a><br><br>When you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>.",
+      "type":"Spellcasting Boon",
+      "id":92
+    },
+    {
+      "name":"Improved Concentration", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"You have advantage on Constitution saving throws made to keep concentration on a spell.",
+      "type":"Spellcasting Boon",
+      "id":93
+    },
+    {
+      "name":"Attentive Concentration", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a>",
+      "desc":"While concentrating on a spell, you do not need to make concentration checks unless you take damage.",
+      "type":"Spellcasting Boon",
+      "id":94
+    },
+    {
+      "name":"Dual Concentration", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a> Character level 7th",
+      "desc":"You may concentrate on two spells at once. But, at the start of every turn in which you are concentrating on two spells, you must make a DC 15 concentration check to maintain each spell.",
+      "type":"Spellcasting Boon",
+      "id":95
+    },
+    {
+      "name":"Durable Concentration", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a> Character level 5th",
+      "desc":"While concentrating on a spell, if you take damage equal to or less than your character level, you do not need to make a concentration check.",
+      "type":"Spellcasting Boon",
+      "id":96
+    },
+    {
+      "name":"Expert Concentration", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a>",
+      "desc":"If you fail a concentration check for a spell, you can choose to succeed instead. Once you use this ability, you can't do so again until you finish a short rest.",
+      "type":"Spellcasting Boon",
+      "id":97
+    },
+    {
+      "name":"Improved Counterspell", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"When you attempt to counter a spell, you only need to know a spell of the same school of magic as the target spell to counter. It still must be of the same level as the spell you are countering, as normal.",
+      "type":"Spellcasting Boon",
+      "id":98
+    },
+    {
+      "name":"Reactive Counterspell", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(98)' href='#'>Improved Counterspell</a> Character level 7th",
+      "desc":"You may attempt to counter a spell as it is being cast. You follow all the same rules as per Counterspelling, but instead of readying an action, you may attempt to counter as a reaction.",
+      "type":"Spellcasting Boon",
+      "id":99
+    },
+    {
+      "name":"War Caster", 
+      "cost":2,
+      "prereq":"None",
+      "desc":"When a hostile creature provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.",
+      "type":"Spellcasting Boon",
+      "id":100
+    },
+    {
+      "name":"Careful Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you expend a 1st level spell slot or higher, and choose a number of those creatures up to your proficiency bonus. A chosen creature automatically succeeds on its saving throw against the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":101
+    },
+    {
+      "name":"Improved Careful Spell", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell</a> 3rd level spell slots",
+      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell,</a>creatures that you choose to succeed on the saving throw are unaffected by the spell.",
+      "type":"Spellcasting Boon",
+      "id":102
+    },
+    {
+      "name":"Delayed Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a duration of instantaneous, you can expend a 1st level spell to trigger it during any point during your next turn as a reaction, for this casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":103
+    },
+    {
+      "name":"Distant Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a range of 1 meter or greater, you can expend a 1st level spell slot or higher to double the range of the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":104
+    },
+    {
+      "name":"Improved Distant Spell", 
+      "cost":2,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell</a> 3rd level spell slots",
+      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell,</a>you triple the range instead of doubling it.",
+      "type":"Spellcasting Boon",
+      "id":105
+    },
+    {
+      "name":"Empowered Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell, you may cast it at one spell slot level higher to increase the damage dice of that spell by one stage (1d4 becomes 1d6, 1d12 becomes 1d12 + 1d2, etc), for that casting. This increase in spell level does not contribute toward the At Higher Levels section of a spell.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).",
+      "type":"Metamagic Boon",
+      "id":106
+    },
+    {
+      "name":"Extended Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a duration longer than instantaneous, you can expend a 1st level spell slot or higher to double its duration, to a maximum duration of 24 hours, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).",
+      "type":"Metamagic Boon",
+      "id":107
+    },
+    {
+      "name":"Distant Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend a 2nd level spell slot or higher to give one target of the spell disadvantage on its first saving throw made against the spell for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.",
+      "type":"Metamagic Boon",
+      "id":108
+    },
+    {
+      "name":"Merciful Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that drops a creature to 0 hit points, you can your reaction to expend a 1st level spell slot or above to make the damage non-lethal, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":109
+    },
+    {
+      "name":"Quickened Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a casting time of 1 action, you may cast it at one spell slot level higher to change the casting time to 1 bonus action, for that casting.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.",
+      "type":"Metamagic Boon",
+      "id":110
+    },
+    {
+      "name":"Reaching Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a range of touch, you can expend a 1st level spell slot or higher to make the range of the spell 10 meters, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":111
+    },
+    {
+      "name":"Shared Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has a range of self, you can expend a 1st level spell slot or above to give it a range of touch, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":112
+    },
+    {
+      "name":"Silent Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without verbal components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":113
+    },
+    {
+      "name":"Still Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without somatic components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":114
+    },
+    {
+      "name":"Transmuted Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that deals a type of damage from the following list, you can expend a 1st level spell slot to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, or thunder, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "type":"Metamagic Boon",
+      "id":115
+    },
+    {
+      "name":"Twinned Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that targets only one creature and doesn't have a range of self, you can expend a spell slot equal to one less than the spell's level (minimum 1st level) to target a second creature in range with the same spell, for that casting.<br><br>Alternatively, you can expend a number of sorcery points equal to the spell's level for the same effect.",
+      "type":"Metamagic Boon",
+      "id":116
+    },
+    {
+      "name":"Wide Spell", 
+      "cost":2,
+      "prereq":"2nd level spell slots",
+      "desc":"When you cast a spell that has an area of effect, you can expend a 2nd level spell slot or higher to increase that spell's area of effect variables by 50% for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.",
+      "type":"Metamagic Boon",
+      "id":117
     },
 ];
