@@ -16,20 +16,34 @@
       <p><i>Search with the filters by typing in the boxes below. Click on a boon name to see its description.</i></p>
     </div>
 
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="boons.html">Boons</a></li>
-      </ul>
+    <div class="menu" id="menu">
     </div>
    
     <div class="search">
-      <input type="text" id="myInput1" onkeyup="search(0)" placeholder="Search by name.." style="width:17.5%">
-      <input type="text" id="myInput2" onkeyup="search(1)" placeholder="Search by cost.." style="width:7.5%">
+      <input type="text" id="myInput1" onkeyup="search(0)" placeholder="Search by name.." style="width:18%">
+      <input type="text" id="myInput2" onkeyup="search(1)" placeholder="Search by cost.." style="width:8%">
       <input type="text" id="myInput3" onkeyup="search(2)" placeholder="Search by type.." style="width:12.5%">
       <input type="text" id="myInput4" onkeyup="search(3)" placeholder="Search by prerequisites..">
     </div>
     
+    <div class="selection">
+      <table>
+        <colgroup>
+          <col style="width:20%;">
+          <col style="width:10%;">
+          <col style="width:15%;">
+          <col style="text-align: justify; a {display:inline-block;}">
+          <col class="endCol" style="display:none; width: 0;">
+        </colgroup>
+        <tr>
+          <th onclick="sortTable(4)">Name</th>
+          <th onclick="sortTable(1)">Cost</th>
+          <th onclick="sortTable(2)">Type</th>
+          <th onclick="sortTable(3)">Prerequisites</th>
+        </tr>
+      </table>
+    </div>
+
     <div class="selection" id="boonsList">
       
       <table id="myTable">
@@ -40,13 +54,7 @@
           <col style="text-align: justify; a {display:inline-block;}">
           <col style="display:none; width: 0;">
         </colgroup>
-        <tr>
-          <th onclick="sortTable(4)">Name</th>
-          <th onclick="sortTable(1)">Cost</th>
-          <th onclick="sortTable(2)">Type</th>
-          <th onclick="sortTable(3)">Prerequisites</th>
-          <th></th>
-        </tr>
+        <tr></tr>
       </table>
     </div>
     <div class="boons">
@@ -58,5 +66,6 @@
     </div>
     <script src="boons.js"></script>
     <script src="boonArray.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>

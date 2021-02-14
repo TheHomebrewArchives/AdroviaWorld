@@ -78,6 +78,11 @@ body {
 .ClassBoon {
   color: rgb(137, 240, 137);
 }
+
+.CultureBoon{
+  color: rgb(165, 216, 212);
+}
+
 .search {
   display: block;
   background-color: rgb(44, 44, 44);

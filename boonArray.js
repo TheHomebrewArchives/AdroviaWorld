@@ -1,4 +1,6 @@
-var a1 = [{
+var a1 = [
+    // General Boons 
+    {
       "name":"Ability Score Improvement", 
       "cost":2,
       "prereq":"None", 
@@ -34,7 +36,7 @@ var a1 = [{
       "name":"Eidetic Memory", 
       "cost":3,
       "prereq":"Intelligence 13 or higher", 
-      "desc":"You gain the following benefits: <br. <ul> <li>You always know which way is north.</li><li>You always know the number of hours left before the next sunrise or sunset.</li><li>You can accurately recall anything you have seen or heard within the past month. </li><li>You know the exact day, month, and year it currently is at all times. </li><li>You have advantage on saving throws against memory-altering magic. </li><li>You have advantage on survival skill checks to avoid becoming lost. </li></ul>", 
+      "desc":"You gain the following benefits:<br><ul><li>You always know which way is north.</li><br><li>You always know the number of hours left before the next sunrise or sunset.</li><br><li>You can accurately recall anything you have seen or heard within the past month.</li><br><li>You know the exact day, month, and year it currently is at all times.</li><br><li>You have advantage on saving throws against memory-altering magic.</li><br><li>You have advantage on survival skill checks to avoid becoming lost.</li></ul>", 
       "type":"General Boon",
       "id":4
     },
@@ -90,7 +92,7 @@ var a1 = [{
       "name":"Language", 
       "cost":1,
       "prereq":"The ability to speak at least one language", 
-      "desc":"You gain 1/2 fluency in one human language you don't know, gain 1/4 fluency in two human languages you don't know, or you may increase fluency in languages you know by 1/4 four times.", 
+      "desc":"You gain 1/2 fluency in one human language you don't know, gain 1/4 fluency in two human languages you don't know, or you may increase fluency in languages you know by 1/4 four times. <br><br>Alternatively, you may gain the ability to read and write with one language you have fluency in.", 
       "type":"General Boon",
       "id":11
     },
@@ -222,6 +224,7 @@ var a1 = [{
       "type":"General Boon",
       "id":27
     },
+    //Combat Boons
     {
       "name":"Arcane Strike", 
       "cost":2,
@@ -574,6 +577,7 @@ var a1 = [{
       "type":"Combat Boon",
       "id":71
     },
+    // Critical Boons
     {
       "name":"Improved Critical", 
       "cost":3,
@@ -654,6 +658,7 @@ var a1 = [{
       "type":"Critical Boon",
       "id":81
     },
+    //Spellcasting Boons
     {
       "name":"Armed Caster", 
       "cost":2,
@@ -806,6 +811,7 @@ var a1 = [{
       "type":"Spellcasting Boon",
       "id":100
     },
+    // Metamagic Boons
     {
       "name":"Careful Spell", 
       "cost":2,
@@ -941,5 +947,110 @@ var a1 = [{
       "desc":"When you cast a spell that has an area of effect, you can expend a 2nd level spell slot or higher to increase that spell's area of effect variables by 50% for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.",
       "type":"Metamagic Boon",
       "id":117
+    },
+    // Culture Boons
+    {
+      "name":"Blessings of the Hearth", 
+      "cost":2,
+      "prereq":"Midlander Culture",
+      "desc":"As an action, you can give yourself a number of temporary hit points equal to your character level. These temporary hit points last for 10 minutes, and once you use this ability, you cannot do so again until you finish a long rest. <br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":118
+    },
+    {
+      "name":"Chosen of Dynus", 
+      "cost":2,
+      "prereq":"Alnir Culture",
+      "desc":"When you drop to 0 hit points, you can use your reaction to drop to 1 hit point instead. Once you use this ability, you cannot do so again until you finish a long rest.<br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":119
+    },
+    {
+      "name":"Chosen of Lessus", 
+      "cost":2,
+      "prereq":"Lesnir Culture",
+      "desc":"You can breathe both air and water. Additionally, you cannot be grappled or restrained while underwater.",
+      "type":"Culture Boon",
+      "id":120
+    },
+    {
+      "name":"Dragon-Born", 
+      "cost":3,
+      "prereq":"Pressian Culture",
+      "desc":"Your bloodline can be traced back to the Dragon Warriors of Pressia. You gain one of the following features: <br><ul><li><b>Draken Eyesight:</b> You can see in darkness as if it were dim light out to a range of 20 meters, and dim light as if it were bright light out to a range of 40 meters.</li><br><li><b>Draken Scales:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Draken Wings:</b> While not wearing havy armor, you gain a flying speed of 6 meters. You cannot hover, and must keep moving on your turn to stay aloft.</li><br><li><b>Elemental Breath:</b> You can exhale your choice of a 1-meter by 10-meter line or 4-meter cone breath weapon. Creatures within the area must make a DC 8 + your proficiency bonus Dexterity saving throw or take 2d6 + your Constitution modifier damage, or half damage on a successful save. The damage creatures take is determined by the damage resistance you chose as part of the Pressian culture. You can use this ability once, and you regain use after a short or long rest.</li>",
+      "type":"Culture Boon",
+      "id":121
+    },
+    {
+      "name":"Equien Shifter", 
+      "cost":2,
+      "prereq":"Equien Culture",
+      "desc":"As an action, you can transform yourself into a medium-sized bipedal form that lasts until you fall unconscious, or until you dismiss it as a bonus action. While in this form, you lose all features granted to you by Centaurism.",
+      "type":"Culture Boon",
+      "id":122
+    },
+    {
+      "name":"Frosted Protection", 
+      "cost":2,
+      "prereq":"Yupik Culture",
+      "desc":"You can cast the spell Icebite Armor on yourself once per short rest.",
+      "type":"Culture Boon",
+      "id":123
+    },
+    {
+      "name":"Ghostkin", 
+      "cost":2,
+      "prereq":"Crascen Culture",
+      "desc":"As a bonus action, you can turn invisible for 1 minute or until you attack a creature or cast a spell. While invisible in this way, you have resistance to all damage. Once you use this ability, you cannot do so again until you finish a long rest.<br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":124
+    },
+    {
+      "name":"Infernal Heritage", 
+      "cost":2,
+      "prereq":"Helson Culture",
+      "desc":"Your bloodline can be strongly traced back to the Infernal Incursions. You gain one of the following features: <br><ul><li><b>Damnable Retribution:</b> When you are hit with an attack by a creature you can see, you can use your reaction to deal 3d8 Cold or Fire damage to the attacker. Once you use this ability, you cannot do so again until you finish a long rest.</li><br><li><b>Hellish Carapace:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Fiendish Wings:</b> While not wearing heavy armor and in dim light or darkness, you gain a flying speed of 6 meters.</li><br><li><b>Infernal Magic:</b> You may cast one of the following spells at their lowest level, once per short rest: Bane, Cause Fear, False Life, Hellish Rebuke, Hideous Laughter, or Inflict Wounds.<br><br>Your spellcasting ability modifier for these spells is your Charisma modifier + your proficiency bonus.<br><br>Your spell save DC for these spells is 8 + your Charisma modifier + your proficiency bonus.</li>",
+      "type":"Culture Boon",
+      "id":125
+    },
+    {
+      "name":"Mutagen Aspect", 
+      "cost":2,
+      "prereq":"Ensot Culture",
+      "desc":"Your bloodline is infused with the magic of foul mutations. You gain one of the following features: <br><ul><li><b>Vile Retaliation:</b> When you are hit with a melee attack by a creature you can see, you can use your reaction to deal 1d6 acid or poison damage.</li><br><li><b>Appaling Hide:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Insectoid Wings:</b> While not wearing medium or heavy armor and having more than half of your maximum HP, you gain a flying speed of 6 meters.</li><br><li><b>Disfiguring Claws:</b>Your unarmed strikes deal 1d8 slashing damage. You cannot wield martial weapons.</li><br><li><b>Terrifying Visage:</b>You gain advantage on all intimidation checks, and disadvantage on all persuasion checks.</li>",
+      "type":"Culture Boon",
+      "id":126
+    },
+    {
+      "name":"Paulnak Shifter", 
+      "cost":2,
+      "prereq":"Paulnak Culture",
+      "desc":"You can cast the spell Enlarge/Reduce on yourself once per long rest.<br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":127
+    },
+    {
+      "name":"Unangen Magic Sense", 
+      "cost":2,
+      "prereq":"Unangen Culture",
+      "desc":"You can cast the spell Detect Magic at will.",
+      "type":"Culture Boon",
+      "id":128
+    },
+    {
+      "name":"Unbroken Spirit", 
+      "cost":2,
+      "prereq":"Clavish Culture",
+      "desc":"If you fail a Wisdom saving throw, you can use your reaction to succeed instead. Once you use this ability, you cannot do so again until you finish a long rest.<br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":129
+    },
+    {
+      "name":"Unfettered Fortitude", 
+      "cost":2,
+      "prereq":"Crownlander Culture",
+      "desc":"If you fail a Constitution saving throw, you can use your reaction to succeed instead. Once you use this ability, you cannot do so again until you finish a long rest.<br><br>You may take this boon only once.",
+      "type":"Culture Boon",
+      "id":130
     },
 ];
