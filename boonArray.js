@@ -581,8 +581,8 @@ var a1 = [
     {
       "name":"Improved Critical", 
       "cost":3,
-      "prereq":"Fighter level 6th",
-      "desc":"When you score a critical hit with a weapon attack, you can roll the damage dice for that attack three times. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
+      "prereq":"Extra Attack class feature",
+      "desc":"When you score a critical hit with a weapon attack, you can roll the damage dice for that attack one additional time. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
       "type":"Critical Boon",
       "id":72
     },
@@ -816,7 +816,7 @@ var a1 = [
       "name":"Careful Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you expend a 1st level spell slot or higher, and choose a number of those creatures up to your proficiency bonus. A chosen creature automatically succeeds on its saving throw against the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you expend a 1st level spell slot or higher, and choose a number of those creatures up to your proficiency bonus. A chosen creature automatically succeeds on its saving throw against the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":101
     },
@@ -824,7 +824,7 @@ var a1 = [
       "name":"Improved Careful Spell", 
       "cost":2,
       "prereq":"<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell</a> 3rd level spell slots",
-      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell,</a>creatures that you choose to succeed on the saving throw are unaffected by the spell.",
+      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell,</a>creatures that you choose to succeed on the saving throw are unaffected by the spell.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Spellcasting Boon",
       "id":102
     },
@@ -832,7 +832,7 @@ var a1 = [
       "name":"Delayed Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a duration of instantaneous, you can expend a 1st level spell to trigger it during any point during your next turn as a reaction, for this casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that has a duration of instantaneous, you can expend a 1st level spell to trigger it during any point during your next turn as a reaction, for this casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":103
     },
@@ -840,7 +840,7 @@ var a1 = [
       "name":"Distant Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a range of 1 meter or greater, you can expend a 1st level spell slot or higher to double the range of the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that has a range of 1 meter or greater, you can expend a 1st level spell slot or higher to double the range of the spell, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":104
     },
@@ -848,7 +848,7 @@ var a1 = [
       "name":"Improved Distant Spell", 
       "cost":2,
       "prereq":"<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell</a> 3rd level spell slots",
-      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell,</a>you triple the range instead of doubling it.",
+      "desc":"When you use<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell,</a>you triple the range instead of doubling it.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Spellcasting Boon",
       "id":105
     },
@@ -856,7 +856,7 @@ var a1 = [
       "name":"Empowered Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell, you may cast it at one spell slot level higher to increase the damage dice of that spell by one stage (1d4 becomes 1d6, 1d12 becomes 1d12 + 1d2, etc), for that casting. This increase in spell level does not contribute toward the At Higher Levels section of a spell.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).",
+      "desc":"When you cast a spell, you may cast it at one spell slot level higher to increase the damage dice of that spell by one stage (1d4 becomes 1d6, 1d12 becomes 1d12 + 1d2, etc), for that casting. This increase in spell level does not contribute toward the At Higher Levels section of a spell.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":106
     },
@@ -864,7 +864,7 @@ var a1 = [
       "name":"Extended Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a duration longer than instantaneous, you can expend a 1st level spell slot or higher to double its duration, to a maximum duration of 24 hours, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).",
+      "desc":"When you cast a spell that has a duration longer than instantaneous, you can expend a 1st level spell slot or higher to double its duration, to a maximum duration of 24 hours, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may use this boon a number of times on a single spell equal to half your proficiency bonus (rounded down).<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":107
     },
@@ -872,7 +872,7 @@ var a1 = [
       "name":"Distant Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend a 2nd level spell slot or higher to give one target of the spell disadvantage on its first saving throw made against the spell for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.",
+      "desc":"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend a 2nd level spell slot or higher to give one target of the spell disadvantage on its first saving throw made against the spell for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":108
     },
@@ -880,7 +880,7 @@ var a1 = [
       "name":"Merciful Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that drops a creature to 0 hit points, you can your reaction to expend a 1st level spell slot or above to make the damage non-lethal, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that drops a creature to 0 hit points, you can your reaction to expend a 1st level spell slot or above to make the damage non-lethal, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":109
     },
@@ -888,7 +888,7 @@ var a1 = [
       "name":"Quickened Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a casting time of 1 action, you may cast it at one spell slot level higher to change the casting time to 1 bonus action, for that casting.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.",
+      "desc":"When you cast a spell that has a casting time of 1 action, you may cast it at one spell slot level higher to change the casting time to 1 bonus action, for that casting.<br><br>Alternatively, you can expend 2 sorcery points per spell slot level for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":110
     },
@@ -896,7 +896,7 @@ var a1 = [
       "name":"Reaching Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a range of touch, you can expend a 1st level spell slot or higher to make the range of the spell 10 meters, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that has a range of touch, you can expend a 1st level spell slot or higher to make the range of the spell 10 meters, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":111
     },
@@ -904,7 +904,7 @@ var a1 = [
       "name":"Shared Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has a range of self, you can expend a 1st level spell slot or above to give it a range of touch, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that has a range of self, you can expend a 1st level spell slot or above to give it a range of touch, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":112
     },
@@ -912,7 +912,7 @@ var a1 = [
       "name":"Silent Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without verbal components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without verbal components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":113
     },
@@ -920,7 +920,7 @@ var a1 = [
       "name":"Still Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without somatic components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell, you can expend a 1st level spell slot or higher to cast it without somatic components, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":114
     },
@@ -928,7 +928,7 @@ var a1 = [
       "name":"Transmuted Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that deals a type of damage from the following list, you can expend a 1st level spell slot to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, or thunder, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.",
+      "desc":"When you cast a spell that deals a type of damage from the following list, you can expend a 1st level spell slot to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, or thunder, for that casting.<br><br>Alternatively, you can expend 1 sorcery point for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":115
     },
@@ -936,7 +936,7 @@ var a1 = [
       "name":"Twinned Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that targets only one creature and doesn't have a range of self, you can expend a spell slot equal to one less than the spell's level (minimum 1st level) to target a second creature in range with the same spell, for that casting.<br><br>Alternatively, you can expend a number of sorcery points equal to the spell's level for the same effect.",
+      "desc":"When you cast a spell that targets only one creature and doesn't have a range of self, you can expend a spell slot equal to one less than the spell's level (minimum 1st level) to target a second creature in range with the same spell, for that casting.<br><br>Alternatively, you can expend a number of sorcery points equal to the spell's level for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":116
     },
@@ -944,7 +944,7 @@ var a1 = [
       "name":"Wide Spell", 
       "cost":2,
       "prereq":"2nd level spell slots",
-      "desc":"When you cast a spell that has an area of effect, you can expend a 2nd level spell slot or higher to increase that spell's area of effect variables by 50% for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.",
+      "desc":"When you cast a spell that has an area of effect, you can expend a 2nd level spell slot or higher to increase that spell's area of effect variables by 50% for that casting.<br><br>Alternatively, you can expend 3 sorcery points for the same effect.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Metamagic Boon",
       "id":117
     },
@@ -1017,7 +1017,7 @@ var a1 = [
       "name":"Mutagen Aspect", 
       "cost":2,
       "prereq":"Ensot Culture",
-      "desc":"Your bloodline is infused with the magic of foul mutations. You gain one of the following features: <br><ul><li><b>Vile Retaliation:</b> When you are hit with a melee attack by a creature you can see, you can use your reaction to deal 1d6 acid or poison damage.</li><br><li><b>Appaling Hide:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Insectoid Wings:</b> While not wearing medium or heavy armor and having more than half of your maximum HP, you gain a flying speed of 6 meters.</li><br><li><b>Disfiguring Claws:</b>Your unarmed strikes deal 1d8 slashing damage. You cannot wield martial weapons.</li><br><li><b>Terrifying Visage:</b>You gain advantage on all intimidation checks, and disadvantage on all persuasion checks.</li>",
+      "desc":"Your bloodline is infused with the magic of foul mutations. You gain one of the following features: <br><ul><li><b>Vile Retaliation:</b> When you are hit with a melee attack by a creature you can see, you can use your reaction to deal 1d6 acid or poison damage.</li><br><li><b>Appaling Hide:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Insectoid Wings:</b> While not wearing medium or heavy armor and having more than half of your maximum HP, you gain a flying speed of 6 meters.</li><br><li><b>Disfiguring Claws:</b> Your unarmed strikes deal 1d8 slashing damage. You cannot wield martial weapons.</li><br><li><b>Terrifying Visage:</b> You gain advantage on all intimidation checks, and disadvantage on all persuasion checks.</li>",
       "type":"Culture Boon",
       "id":126
     },
@@ -1052,5 +1052,14 @@ var a1 = [
       "desc":"If you fail a Constitution saving throw, you can use your reaction to succeed instead. Once you use this ability, you cannot do so again until you finish a long rest.<br><br>You may take this boon only once.",
       "type":"Culture Boon",
       "id":130
+    },
+    // Metamagic Mastery
+    {
+      "name":"Metamagic Mastery", 
+      "cost":3,
+      "prereq":"At least two other Metamagic Boons <br>Character level 8th",
+      "desc":"You may apply the effects of up to two Metamagic Boons on a single spell, as long as you pay the costs seperately.",
+      "type":"Metamagic Boon",
+      "id":131
     },
 ];

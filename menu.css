@@ -33,6 +33,11 @@
   display: inline-block;
 }
 
+.titleDesc p a {
+  text-decoration: underline dotted gray;
+  color: white;
+}
+
 
 .dropdown {
   float: left;

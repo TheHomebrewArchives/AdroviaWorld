@@ -55,6 +55,10 @@ body {
   cursor: s-resize;
 }
 
+#boonsList {
+  resize: vertical;
+}
+
 .GeneralBoon {
   color: rgb(92, 132, 243);
 }
@@ -116,7 +120,6 @@ body {
 }
 
 .boons a {
-  display: block;
   text-decoration: none;
   color: rgb(252, 245, 251);
   padding: 6px;
