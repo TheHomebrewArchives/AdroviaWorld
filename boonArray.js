@@ -1062,4 +1062,231 @@ var a1 = [
       "type":"Metamagic Boon",
       "id":131
     },
+    // Barbarian Class Boons
+    {
+      "name":"Extra Rage", 
+      "cost":2,
+      "prereq":"Barbarian level 3rd",
+      "desc":"You can rage one additional time per day.",
+      "type":"Class Boon",
+      "id":132
+    },
+    {
+      "name":"Raging Defense", 
+      "cost":3,
+      "prereq":"Barbarian level 5th",
+      "desc":"While raging and not wearing a shield, you gain a +2 bonus to AC.",
+      "type":"Class Boon",
+      "id":133
+    },
+    {
+      "name":"Baleful Protectors", 
+      "cost":2,
+      "prereq":"Ancestral Guardian Barbarian level 3rd",
+      "desc":"A target under the effects of your Ancestral Protectors has disadvantage on one saving throw of your choice when you strike them.",
+      "type":"Class Boon",
+      "id":134
+    },
+    {
+      "name":"Vindictive Shield", 
+      "cost":3,
+      "prereq":"Ancestral Guardian Barbarian level 9th",
+      "desc":"The dice you roll for Spirit Shield increase to d8's. When you reduce the damage a creature takes from an attack to 0 with Spirit Shield, the attacker takes force damage equal to half of the damage they would have dealt.",
+      "type":"Class Boon",
+      "id":135
+    },
+    {
+      "name":"Controlled Frenzy", 
+      "cost":2,
+      "prereq":"Berserker Barbarian level 3rd",
+      "desc":"You do not recieve exhaustion from using Frenzy. While you are un a frenzied rage, all of your melee weapon attacks deal an additional 1d4 damage.",
+      "type":"Class Boon",
+      "id":136
+    },
+    {
+      "name":"Thoughtless Rage", 
+      "cost":3,
+      "prereq":"Berserker Barbarian level 9th",
+      "desc":"When you enter a rage, you end any effect that causes you to be charmed or frightened. Additionally, you are immune to psychic damage while raging.",
+      "type":"Class Boon",
+      "id":137
+    },
+    {
+      "name":"Greater Strom Aura", 
+      "cost":2,
+      "prereq":"Strom Herald Barbarian level 3rd",
+      "desc":"Your Strom Aura extends 6 meters from you in every direction. Additionally, any dice rolled to deal damage or gain temporary hit points from your Storm Aura increase by 1 die step (1d6 becomes 1d8, 1d12 becomes 1d12 + 1d2, etc.).",
+      "type":"Class Boon",
+      "id":138
+    },
+    {
+      "name":"Storm Conduit", 
+      "cost":3,
+      "prereq":"Storm Herald Barbarian level 9th",
+      "desc":"While you are raging, your weapon attacks deal an additional 1d6 thunder damage.",
+      "type":"Class Boon",
+      "id":139
+    },
+    {
+      "name":"Totem Versatility", 
+      "cost":2,
+      "prereq":"Totem Warrior Barbarian level 3rd",
+      "desc":"When you finish a long rest, you can choose to change your Totem Spirit to that of another animal.",
+      "type":"Class Boon",
+      "id":140
+    },
+    {
+      "name":"Totemic Aspect", 
+      "cost":3,
+      "prereq":"Totem Warrior Barbarian level 9th",
+      "desc":"You gain the 3rd level effects of one Totem Spirit of your choice.",
+      "type":"Class Boon",
+      "id":141
+    },
+    {
+      "name":"Righteous Fury", 
+      "cost":2,
+      "prereq":"Zealot Barbarian level 3rd",
+      "desc":"All attacks after your first attack on your turn deal an additional 1d6 damage. The extra damage is necrotic or radiant; you choose the type of damage when you gain this boon.",
+      "type":"Class Boon",
+      "id":142
+    },
+    {
+      "name":"Focus of the Zealot", 
+      "cost":3,
+      "prereq":"Zealot Barbarian level 9th",
+      "desc":"Once per rage, if you fail a saving throw, you can choose to succeed instead.",
+      "type":"Class Boon",
+      "id":143
+    },
+    //Bard Class Boons
+    {
+      "name":"Bardic Skill", 
+      "cost":3,
+      "prereq":"Bard level 5th",
+      "desc":"You gain a +1 bonus to all skill checks.",
+      "type":"Class Boon",
+      "id":143
+    },
+    {
+      "name":"Extra Inspiration", 
+      "cost":2,
+      "prereq":"Bard level 3rd",
+      "desc":"You gain one additional use of Bardic Inspiration.",
+      "type":"Class Boon",
+      "id":145
+    },
+    {
+      "name":"Disturbing Words", 
+      "cost":2,
+      "prereq":"Eloquence Bard level 3rd",
+      "desc":"When you use Unsettling Words, you can choose to subtract from an ability check, attack roll, or saving throw.",
+      "type":"Class Boon",
+      "id":146
+    },
+    {
+      "name":"Universal Understanding", 
+      "cost":3,
+      "prereq":"Eloquence Bard level 9th",
+      "desc":"You can speak to and understand all creatures with an intelligence score greater than 2.",
+      "type":"Class Boon",
+      "id":147
+    },
+    {
+      "name":"Reliable Distraction", 
+      "cost":2,
+      "prereq":"Lore Bard level 3rd",
+      "desc":"Whenever you use Cutting Words, you can roll a d6 and use it instead of expending a Bardic Inspiration die.",
+      "type":"Class Boon",
+      "id":148
+    },
+    {
+      "name":"Ritualistic Study", 
+      "cost":3,
+      "prereq":"Lore Bard level 9th",
+      "desc":"When you finish a long rest, you can choose to replace a spell you know with a spell from any class' spell list.",
+      "type":"Class Boon",
+      "id":149
+    },
+    {
+      "name":"Quickened Flourish", 
+      "cost":2,
+      "prereq":"Swords Bard level 3rd",
+      "desc":"When you use a Blade Flourish option, you can make a weapon attack with your bonus action.",
+      "type":"Class Boon",
+      "id":150
+    },
+    {
+      "name":"Maneuvering Flourish", 
+      "cost":3,
+      "prereq":"Swords Bard level 9th",
+      "desc":"You can use multiple Blade Flourish options per turn, but a maximum of one per attack.",
+      "type":"Class Boon",
+      "id":151
+    },
+    {
+      "name":"Feat of Valor", 
+      "cost":2,
+      "prereq":"Valor Bard level 3rd",
+      "desc":"When an ally hits with an attack roll using Bardic Inspiration, their attack deals additional damage equal to the Bardic Inspiration roll.",
+      "type":"Class Boon",
+      "id":152
+    },
+    {
+      "name":"Valiant Stand", 
+      "cost":3,
+      "prereq":"Valor Bard level 9th",
+      "desc":"When you are reduced to 0 hit points, you can use your reaction to expend a use of Bardic Inspiration to drop to 1 hit point instead.",
+      "type":"Class Boon",
+      "id":153
+    },
+    {
+      "name":"Ghastly Blades", 
+      "cost":2,
+      "prereq":"Whispers Bard level 3rd",
+      "desc":"When you use Psychic Blades, the creature you are attacking must also make a Wisdom saving throw against your spell save DC. If they fail, they are frightened of you until the end of their next turn.",
+      "type":"Class Boon",
+      "id":154
+    },
+    {
+      "name":"Shroud of Whispers", 
+      "cost":3,
+      "prereq":"Whispers Bard level 9th",
+      "desc":"You can use Mantle of Whispers on a creature that has died within 24 hours of using the ability. Additionally, your disguise lasts for 8 hours, or until you choose to end it as a bonus action.",
+      "type":"Class Boon",
+      "id":155
+    },
+    // Cleric Class Boons
+    {
+      "name":"Deepened Divinity", 
+      "cost":3,
+      "prereq":"Cleric or Paladin level 3rd",
+      "desc":"You gain one additional use of Channel Divinity per long rest.",
+      "type":"Class Boon",
+      "id":156
+    },
+    {
+      "name":"Improved Divine Intervention", 
+      "cost":3,
+      "prereq":"Cleric level 10th",
+      "desc":"When you use Divine Intervention, you gain a 10% greater chance of intervention.",
+      "type":"Class Boon",
+      "id":157
+    },
+    {
+      "name":"Deepened Divinity", 
+      "cost":2,
+      "prereq":"Arcana Cleric level 3rd",
+      "desc":"You gain one additional use of Channel Divinity per long rest.",
+      "type":"Class Boon",
+      "id":158
+    },
+    {
+      "name":"Improved Divine Intervention", 
+      "cost":3,
+      "prereq":"Arcana Cleric level 9th",
+      "desc":"When you use Divine Intervention, you gain a 10% greater chance of intervention.",
+      "type":"Class Boon",
+      "id":159
+    },
 ];
