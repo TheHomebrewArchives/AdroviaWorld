@@ -1,2 +1,2 @@
 # adrovia.world
-Don't mind all of the spaghetti code :)
+Don't mind all of the spaghetti :)
