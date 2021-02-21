@@ -1,13 +1,13 @@
 body {
   background-color: rgb(17, 16, 17);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: rgb(243, 232, 243)
 }
 
 .selection {
   height: 100%;
   width: 100%;
-  max-height: 350px;
+  max-height: 275px;
   background-color: rgb(37, 37, 37);
   overflow-y: scroll;
 }
@@ -39,16 +39,36 @@ body {
   padding: 8px;
 }
 
-.selection table a {
+.selection table .boonDisplayLink {
   display: block;
   padding: 6px 8px;
   text-decoration: none;
-  color: rgb(252, 245, 251);
+  color: rgb(221, 208, 247);
 }
 
-.selection table a:hover {
-  background-color: rgb(27, 27, 27);
-  color: rgb(172, 172, 172);
+.selection table .boonDisplayLink:hover {
+  color: rgb(165, 144, 208);
+  cursor: alias;
+}
+
+.selection a {
+  color: rgb(247, 150, 165);
+  text-decoration: none;
+}
+
+.selection a:hover {
+  color: rgb(182, 108, 108);
+  text-decoration: underline;
+}
+
+.boons a {
+  color: rgb(247, 150, 165);
+  text-decoration: none;
+}
+
+.boons a:hover {
+  color: rgb(182, 108, 108);
+  text-decoration: underline;
 }
 
 .selection table th:hover {
@@ -117,17 +137,6 @@ body {
   padding-left: 20px;
   background-color: rgb(27, 27, 27);
   height: 100%;
-}
-
-.boons a {
-  text-decoration: none;
-  color: rgb(252, 245, 251);
-  padding: 6px;
-}
-
-.boons a:hover {
-  background-color: rgb(22, 22, 22);
-  color: rgb(172, 172, 172);
 }
 
 .boonDisplayDescription a {

@@ -13,6 +13,7 @@
 .menu li a {
   display: block;
   color: white;
+  font-size: 20px;
   padding: 14px 32px;
   text-decoration: none;
 }
@@ -38,6 +39,9 @@
   color: white;
 }
 
+.titleDesc p a:hover {
+  cursor: help;
+}
 
 .dropdown {
   float: left;
@@ -45,7 +49,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: white;

@@ -1,7 +1,7 @@
 body {
   background-color: rgb(17, 16, 17);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(243, 232, 243)
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(243, 232, 243);
 }
 
 .info {
@@ -13,6 +13,20 @@ body {
   padding-left: 20px;
   background-color: rgb(27, 27, 27);
   height: 100%;
+}
+
+.info p {
+  font-size: 16px;
+}
+
+.info a {
+  color: rgb(247, 150, 165);
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: rgb(182, 108, 108);
+  text-decoration: underline;
 }
 
 .info li {
@@ -47,7 +61,7 @@ body {
 }
 
 .info tr:nth-child(even) {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(36, 36, 36);
 }
 
 .info tr:nth-child(odd) {

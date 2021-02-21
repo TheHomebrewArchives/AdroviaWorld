@@ -36,7 +36,7 @@ var a1 = [
       "name":"Eidetic Memory", 
       "cost":3,
       "prereq":"Intelligence 13 or higher", 
-      "desc":"You gain the following benefits:<br><ul><li>You always know which way is north.</li><br><li>You always know the number of hours left before the next sunrise or sunset.</li><br><li>You can accurately recall anything you have seen or heard within the past month.</li><br><li>You know the exact day, month, and year it currently is at all times.</li><br><li>You have advantage on saving throws against memory-altering magic.</li><br><li>You have advantage on survival skill checks to avoid becoming lost.</li></ul>", 
+      "desc":"You gain the following benefits:<br><ul><li>You always know which way is north.</li><li>You always know the number of hours left before the next sunrise or sunset.</li><li>You can accurately recall anything you have seen or heard within the past month.</li><li>You know the exact day, month, and year it currently is at all times.</li><li>You have advantage on saving throws against memory-altering magic.</li><li>You have advantage on survival skill checks to avoid becoming lost.</li></ul>", 
       "type":"General Boon",
       "id":4
     },
@@ -123,7 +123,7 @@ var a1 = [
     {
       "name":"Expert Craftsman", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(14)' href='#'>Master Craftsman</a>+9 or greater with a Craft skill", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(14)' href='#'>Master Craftsman</a>, +9 or greater with a Craft skill", 
       "desc":"You can craft magic items without being a spellcaster, as long as the Craft skill you are using has a +9 or greater.",
       "type":"General Boon",
       "id":15
@@ -171,7 +171,7 @@ var a1 = [
     {
       "name":"Improved Soul Tether", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(20)' href='#'>Soul Tether</a>Character level 5th", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(20)' href='#'>Soul Tether</a>, Character level 5th", 
       "desc":"You gain one additional attunement slot. <br><br>You may take this boon only once.",
       "type":"General Boon",
       "id":21
@@ -179,7 +179,7 @@ var a1 = [
     {
       "name":"Master Soul Tether", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(21)' href='#'>Improved Soul Tether</a>Character level 11th", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(21)' href='#'>Improved Soul Tether</a>, Character level 11th", 
       "desc":"You gain one additional attunement slot. <br><br>You may take this boon only once.",
       "type":"General Boon",
       "id":22
@@ -236,7 +236,7 @@ var a1 = [
     {
       "name":"Arcane Penetration", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(28)' href='#'>Arcane Strike</a> Character level 5th", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(28)' href='#'>Arcane Strike</a>, Character level 5th", 
       "desc":"When you attack a creature that is currently under the effects of a spell that increases their AC like Arcane Shield or Mage Armor, you ignore those spells' bonus to AC.",
       "type":"Combat Boon",
       "id":29
@@ -244,7 +244,7 @@ var a1 = [
     {
       "name":"Improved Arcane Strike", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(28)' href='#'>Arcane Strike</a> Character level 5th", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(28)' href='#'>Arcane Strike</a>, Character level 5th", 
       "desc":"Your weapon attacks deal an additional 2 force damage, and are considered magical. <br><br>This boon replaces<a onclick='xmlhttp.onreadystatechange(28)' href='#'>Arcane Strike.</a>",
       "type":"Combat Boon",
       "id":30
@@ -300,7 +300,7 @@ var a1 = [
     {
       "name":"Cleave", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a> Strength 15 or higher", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>, Strength 15 or higher", 
       "desc":"If you hit a creature with a heavy melee weapon that deals slashing damage using<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>on your turn, you can attack with that weapon again as apart of your attack action, against a different creature. You can make this additional attack only once per turn. <br><br>You cannot use<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>with this attack.",
       "type":"Combat Boon",
       "id":37
@@ -308,7 +308,7 @@ var a1 = [
     {
       "name":"Clobber", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a> Strength 15 or higher", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>, Strength 15 or higher", 
       "desc":"If you hit a creature with a heavy melee weapon that deals bludgeoning damage using<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>on your turn, you can attack with that weapon again as apart of your attack action, against the same creature. You can make this additional attack only once per turn. <br><br>You cannot use<a onclick='xmlhttp.onreadystatechange(36)' href='#'>Great Weapon Master</a>with this attack.",
       "type":"Combat Boon",
       "id":38
@@ -332,7 +332,7 @@ var a1 = [
     {
       "name":"Advanced Charge", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(40)' href='#'>Improved Charge</a> Strength 13 or higher", 
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(40)' href='#'>Improved Charge</a>, Strength 13 or higher", 
       "desc":"When you succeed in performing a Charge combat maneuver, you can use your bonus action to immediately attempt an Overrun combat maneuver.",
       "type":"Combat Boon",
       "id":41
@@ -388,7 +388,7 @@ var a1 = [
     {
       "name":"Monster Grappler", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(46)' href='#'>Improved Grapple</a> Strength 15 or higher",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(46)' href='#'>Improved Grapple</a>, Strength 15 or higher",
       "desc":"You may grapple a creature up to two size categories larger than you.",
       "type":"Combat Boon",
       "id":48
@@ -564,7 +564,7 @@ var a1 = [
     {
       "name":"Warrior's Fervor", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(5)' href='#'>Endurance</a> Character level 5th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(5)' href='#'>Endurance</a>, Character level 5th",
       "desc":"When you are brought to 0 hit points, you may make a DC 15 Constitution saving throw. On a success, you do not receive a level of exhaustion.",
       "type":"Combat Boon",
       "id":70
@@ -589,7 +589,7 @@ var a1 = [
     {
       "name":"Critical Mastery", 
       "cost":3,
-      "prereq":"At least two other Critical Boons <br>Character level 8th",
+      "prereq":"At least two other Critical Boons, Character level 8th",
       "desc":"When you score a critical hit with a weapon attack, you may apply the effects of two Critical Boons to that hit.",
       "type":"Critical Boon",
       "id":73
@@ -597,7 +597,7 @@ var a1 = [
     {
       "name":"Bleeding Critical", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Character level 8th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>, Character level 8th",
       "desc":"When you score a critical hit with a weapon attack, the creature you hit cannot gain hit points until the end of your next turn. <br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
       "type":"Critical Boon",
       "id":74
@@ -621,7 +621,7 @@ var a1 = [
     {
       "name":"Forceful Critical", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Strength 13 or higher",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>, Strength 13 or higher",
       "desc":"When you score a critical hit with a weapon attack against a creature, you may immediately attempt a Shove Maneuver as a reaction against that creature.You have advantage on this maneuver check.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
       "type":"Critical Boon",
       "id":77
@@ -629,7 +629,7 @@ var a1 = [
     {
       "name":"Stunning Critical", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> Character level 12th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>, Character level 12th",
       "desc":"When you score a critical hit with a weapon attack, the creature you hit must succeed on a DC half the damage you dealt with the weapon's damage dice Constitution saving throw. On a failed save, they become stunned until the beginning of your next turn.<br><br>You may only apply the effects of one Critical Boon to a given critical hit, unless you possess<a onclick='xmlhttp.onreadystatechange(73)' href='#'>Critical Mastery.</a>",
       "type":"Critical Boon",
       "id":78
@@ -686,7 +686,7 @@ var a1 = [
     {
       "name":"Major Magic", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(84)' href='#'>Minor Magic</a> Character level 4th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(84)' href='#'>Minor Magic</a>, Character level 4th",
       "desc":"Choose a class: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. You learn one 2nd level spell of your choice from that class's spell list. You may cast this spell once, and gain the ability to do so again when you finish a long rest. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, paladin, sorcerer, or warlock; Wisdom for cleric druid, or ranger; or Intelligence for wizard.",
       "type":"Spellcasting Boon",
       "id":85
@@ -694,7 +694,7 @@ var a1 = [
     {
       "name":"Ultimate Magic", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(85)' href='#'>Major Magic</a> Character level 6th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(85)' href='#'>Major Magic</a>, Character level 6th",
       "desc":"Choose a class: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. You learn one 3rd level spell of your choice from that class's spell list. You may cast this spell once, and gain the ability to do so again when you finish a long rest. <br><br>Your spellcasting ability for this spell depends on the class you chose: Charisma for bard, paladin, sorcerer, or warlock; Wisdom for cleric druid, or ranger; or Intelligence for wizard.",
       "type":"Spellcasting Boon",
       "id":86
@@ -710,7 +710,7 @@ var a1 = [
     {
       "name":"Elemental Expert", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a> Character level 5th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>, Character level 5th",
       "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept.</a><br><br>Spells you cast ignore Immunity to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>.",
       "type":"Spellcasting Boon",
       "id":88
@@ -718,7 +718,7 @@ var a1 = [
     {
       "name":"Elemental Potency", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a> Character level 5th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>, Character level 5th",
       "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept.</a><br><br>When you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(87)' href='#'>Elemental Adept</a>.",
       "type":"Spellcasting Boon",
       "id":89
@@ -734,7 +734,7 @@ var a1 = [
     {
       "name":"Energy Expert", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a> Character level 11th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>, Character level 11th",
       "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept.</a><br><br>Spells you cast ignore Immunity to damage of the chosen type.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>.",
       "type":"Spellcasting Boon",
       "id":91
@@ -742,7 +742,7 @@ var a1 = [
     {
       "name":"Energy Potency", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Elemental Adept</a> Character level 11th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>, Character level 11th",
       "desc":"When you gain this boon, choose one of the damage types you chose when you took<a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept.</a><br><br>When you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.<br><br>Each time you select this boon, you must choose a different damage type, that you have already picked from <a onclick='xmlhttp.onreadystatechange(90)' href='#'>Energy Adept</a>.",
       "type":"Spellcasting Boon",
       "id":92
@@ -766,7 +766,7 @@ var a1 = [
     {
       "name":"Dual Concentration", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a> Character level 7th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a>, Character level 7th",
       "desc":"You may concentrate on two spells at once. But, at the start of every turn in which you are concentrating on two spells, you must make a DC 15 concentration check to maintain each spell.",
       "type":"Spellcasting Boon",
       "id":95
@@ -774,7 +774,7 @@ var a1 = [
     {
       "name":"Durable Concentration", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a> Character level 5th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(93)' href='#'>Improved Concentration</a>, Character level 5th",
       "desc":"While concentrating on a spell, if you take damage equal to or less than your character level, you do not need to make a concentration check.",
       "type":"Spellcasting Boon",
       "id":96
@@ -798,7 +798,7 @@ var a1 = [
     {
       "name":"Reactive Counterspell", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(98)' href='#'>Improved Counterspell</a> Character level 7th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(98)' href='#'>Improved Counterspell</a>, Character level 7th",
       "desc":"You may attempt to counter a spell as it is being cast. You follow all the same rules as per Counterspelling, but instead of readying an action, you may attempt to counter as a reaction.",
       "type":"Spellcasting Boon",
       "id":99
@@ -823,7 +823,7 @@ var a1 = [
     {
       "name":"Improved Careful Spell", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell</a> 3rd level spell slots",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell</a>, 3rd level spell slots",
       "desc":"When you use<a onclick='xmlhttp.onreadystatechange(101)' href='#'>Careful Spell,</a>creatures that you choose to succeed on the saving throw are unaffected by the spell.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Spellcasting Boon",
       "id":102
@@ -847,7 +847,7 @@ var a1 = [
     {
       "name":"Improved Distant Spell", 
       "cost":2,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell</a> 3rd level spell slots",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell</a>, 3rd level spell slots",
       "desc":"When you use<a onclick='xmlhttp.onreadystatechange(104)' href='#'>Distant Spell,</a>you triple the range instead of doubling it.<br><br>You may only apply the effects of one Metamagic Boon to a given spell, unless you possess<a onclick='xmlhttp.onreadystatechange(131)' href='#'>Metamagic Mastery.</a>",
       "type":"Spellcasting Boon",
       "id":105
@@ -977,7 +977,7 @@ var a1 = [
       "name":"Dragon-Born", 
       "cost":3,
       "prereq":"Pressian Culture",
-      "desc":"Your bloodline can be traced back to the Dragon Warriors of Pressia. You gain one of the following features: <br><ul><li><b>Draken Eyesight:</b> You can see in darkness as if it were dim light out to a range of 20 meters, and dim light as if it were bright light out to a range of 40 meters.</li><br><li><b>Draken Scales:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Draken Wings:</b> While not wearing havy armor, you gain a flying speed of 6 meters. You cannot hover, and must keep moving on your turn to stay aloft.</li><br><li><b>Elemental Breath:</b> You can exhale your choice of a 1-meter by 10-meter line or 4-meter cone breath weapon. Creatures within the area must make a DC 8 + your proficiency bonus Dexterity saving throw or take 2d6 + your Constitution modifier damage, or half damage on a successful save. The damage creatures take is determined by the damage resistance you chose as part of the Pressian culture. You can use this ability once, and you regain use after a short or long rest.</li>",
+      "desc":"Your bloodline can be traced back to the Dragon Warriors of Pressia. You gain one of the following features: <br><ul><li><b>Draken Eyesight:</b> You can see in darkness as if it were dim light out to a range of 20 meters, and dim light as if it were bright light out to a range of 40 meters.</li><li><b>Draken Scales:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><li><b>Draken Wings:</b> While not wearing havy armor, you gain a flying speed of 6 meters. You cannot hover, and must keep moving on your turn to stay aloft.</li><li><b>Elemental Breath:</b> You can exhale your choice of a 1-meter by 10-meter line or 4-meter cone breath weapon. Creatures within the area must make a DC 8 + your proficiency bonus Dexterity saving throw or take 2d6 + your Constitution modifier damage, or half damage on a successful save. The damage creatures take is determined by the damage resistance you chose as part of the Pressian culture. You can use this ability once, and you regain use after a short or long rest.</li>",
       "type":"Culture Boon",
       "id":121
     },
@@ -1009,7 +1009,7 @@ var a1 = [
       "name":"Infernal Heritage", 
       "cost":2,
       "prereq":"Helson Culture",
-      "desc":"Your bloodline can be strongly traced back to the Infernal Incursions. You gain one of the following features: <br><ul><li><b>Damnable Retribution:</b> When you are hit with an attack by a creature you can see, you can use your reaction to deal 3d8 Cold or Fire damage to the attacker. Once you use this ability, you cannot do so again until you finish a long rest.</li><br><li><b>Hellish Carapace:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Fiendish Wings:</b> While not wearing heavy armor and in dim light or darkness, you gain a flying speed of 6 meters.</li><br><li><b>Infernal Magic:</b> You may cast one of the following spells at their lowest level, once per short rest: Bane, Cause Fear, False Life, Hellish Rebuke, Hideous Laughter, or Inflict Wounds.<br><br>Your spellcasting ability modifier for these spells is your Charisma modifier + your proficiency bonus.<br><br>Your spell save DC for these spells is 8 + your Charisma modifier + your proficiency bonus.</li>",
+      "desc":"Your bloodline can be strongly traced back to the Infernal Incursions. You gain one of the following features: <br><ul><li><b>Damnable Retribution:</b> When you are hit with an attack by a creature you can see, you can use your reaction to deal 3d8 Cold or Fire damage to the attacker. Once you use this ability, you cannot do so again until you finish a long rest.</li><li><b>Hellish Carapace:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><li><b>Fiendish Wings:</b> While not wearing heavy armor and in dim light or darkness, you gain a flying speed of 6 meters.</li><li><b>Infernal Magic:</b> You may cast one of the following spells at their lowest level, once per short rest: Bane, Cause Fear, False Life, Hellish Rebuke, Hideous Laughter, or Inflict Wounds.<br><br>Your spellcasting ability modifier for these spells is your Charisma modifier + your proficiency bonus.<br><br>Your spell save DC for these spells is 8 + your Charisma modifier + your proficiency bonus.</li>",
       "type":"Culture Boon",
       "id":125
     },
@@ -1017,7 +1017,7 @@ var a1 = [
       "name":"Mutagen Aspect", 
       "cost":2,
       "prereq":"Ensot Culture",
-      "desc":"Your bloodline is infused with the magic of foul mutations. You gain one of the following features: <br><ul><li><b>Vile Retaliation:</b> When you are hit with a melee attack by a creature you can see, you can use your reaction to deal 1d6 acid or poison damage.</li><br><li><b>Appaling Hide:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><br><li><b>Insectoid Wings:</b> While not wearing medium or heavy armor and having more than half of your maximum HP, you gain a flying speed of 6 meters.</li><br><li><b>Disfiguring Claws:</b> Your unarmed strikes deal 1d8 slashing damage. You cannot wield martial weapons.</li><br><li><b>Terrifying Visage:</b> You gain advantage on all intimidation checks, and disadvantage on all persuasion checks.</li>",
+      "desc":"Your bloodline is infused with the magic of foul mutations. You gain one of the following features: <br><ul><li><b>Vile Retaliation:</b> When you are hit with a melee attack by a creature you can see, you can use your reaction to deal 1d6 acid or poison damage.</li><li><b>Appaling Hide:</b> While not wearing medium or heavy armor, your AC is 13 + your Dexterity modifier.</b></li><li><b>Insectoid Wings:</b> While not wearing medium or heavy armor and having more than half of your maximum HP, you gain a flying speed of 6 meters.</li><li><b>Disfiguring Claws:</b> Your unarmed strikes deal 1d8 slashing damage. You cannot wield martial weapons.</li><li><b>Terrifying Visage:</b> You gain advantage on all intimidation checks, and disadvantage on all persuasion checks.</li>",
       "type":"Culture Boon",
       "id":126
     },
@@ -1285,7 +1285,7 @@ var a1 = [
       "name":"Weave Sapper", 
       "cost":3,
       "prereq":"Arcana Cleric level 9th",
-      "desc":"When you end a spell that you did not cast on a creature or object, you gain a number of temporary hit points equal to 1d6 x the level of the spell.",
+      "desc":"When you end a spell that you did not cast on a creature or object, you gain a number of temporary hit points equal to 1d6 * the level of the spell.",
       "type":"Class Boon",
       "id":159
     },
@@ -1389,7 +1389,7 @@ var a1 = [
       "name":"Cling to Life", 
       "cost":2,
       "prereq":"Life Cleric level 3rd",
-      "desc":"When you or a creature within 10 meters of you falls to 0 hit points, you can use your reaction to expend a spell slot. They gain a number of hit points equal to two x the level of spell slot expended. You cannot heal an undead or construct in this way.",
+      "desc":"When you or a creature within 10 meters of you falls to 0 hit points, you can use your reaction to expend a spell slot. They gain a number of hit points equal to two * the level of spell slot expended. You cannot heal an undead or construct in this way.",
       "type":"Class Boon",
       "id":172
     },
@@ -1783,7 +1783,7 @@ var a1 = [
       "name":"Champion's Critical", 
       "cost":2,
       "prereq":"Champion Fighter level 3rd",
-      "desc":"You gain the<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>boon. The level requirements for all Critical Boons are considered as 2 levels less for you.",
+      "desc":"You gain the<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a> boon. The level requirements for all Critical Boons are considered as 2 levels less for you.",
       "type":"Class Boon",
       "id":221
     },
@@ -1855,7 +1855,7 @@ var a1 = [
     {
       "name":"Wind Step", 
       "cost":3,
-      "prereq":"<a onclick='xmlhttp.onreadystatechange(229)' href='#'>Spider Step</a>Monk level 11th",
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(229)' href='#'>Spider Step</a>, Monk level 11th",
       "desc":"When you use Step of the Wind, you gain a flying speed equal to your walking speed. You do not fall until you use movement on your turn.",
       "type":"Class Boon",
       "id":230
@@ -2141,4 +2141,563 @@ var a1 = [
       "type":"Class Boon",
       "id":265
     },
+    //Ranger Class Boons
+    {
+      "name":"Additional Favored Enemy", 
+      "cost":3,
+      "prereq":"Ranger level 3rd",
+      "desc":"You gain one additional Favored Enemy of your choice. You do not gain additional language known.",
+      "type":"Class Boon",
+      "id":266
+    },
+    {
+      "name":"Feral Magic", 
+      "cost":1,
+      "prereq":"Ranger level 3rd",
+      "desc":"Learn one Druid or Ranger spell that you have an appropriate spell slot to cast. This spell does not count against your number of maximum spells known.",
+      "type":"Class Boon",
+      "id":267
+    },
+    {
+      "name":"Companion's Bond", 
+      "cost":2,
+      "prereq":"Beast Master Ranger level 3rd",
+      "desc":"As an action on your turn, you may percieve through the senses of your Animal Companion. While percieving through their senses in this way, you are blind and deaf to your own body's surroundings.",
+      "type":"Class Boon",
+      "id":268
+    },
+    {
+      "name":"Bestial Retaliation", 
+      "cost":3,
+      "prereq":"Beast Master Ranger level 9th",
+      "desc":"When your animal companion is hit by a weapon attack, you can use your reaction to make an opportunity attack against the attacker.",
+      "type":"Class Boon",
+      "id":269
+    },
+    {
+      "name":"Twilight Sight", 
+      "cost":2,
+      "prereq":"Gloom Stalker Ranger level 3rd",
+      "desc":"You can see through both magical and non-magical darkness as if it were dim light out to a range of your Umbral Sight.",
+      "type":"Class Boon",
+      "id":270
+    },
+    {
+      "name":"Stalker's Ambush", 
+      "cost":3,
+      "prereq":"Gloom Stalker Ranger level 9th",
+      "desc":"You may use your Dread Ambush ability any time you would go first in initiative.",
+      "type":"Class Boon",
+      "id":271
+    },
+    {
+      "name":"Portal Sense", 
+      "cost":2,
+      "prereq":"Horizon Walker Ranger level 3rd",
+      "desc":"You can use your Detect Portal ability at will, and can tell to which plane a portal leads.",
+      "type":"Class Boon",
+      "id":272
+    },
+    {
+      "name":"Planar Strike", 
+      "cost":3,
+      "prereq":"Horizon Walker Ranger level 9th",
+      "desc":"As an action, you can attempt to send a creature back to its native plane. Make a weapon attack against a creature that you can see. If you hit, that creature must succeed on a Charisma saving throw against your spell save DC or be banished to their native plane. At the end of each of their turns, they can repeat the saving throw. If they succeed, they reappear at the beginning of their next turn in the closest unoccupied space near to where they were banished. If a creature is native to the plane you are currently on, they instead are teleported to an unnocupied space within 20 meters of you on a failed save.",
+      "type":"Class Boon",
+      "id":273
+    },
+    {
+      "name":"Hunter's Quarry", 
+      "cost":2,
+      "prereq":"Hunter Ranger level 3rd",
+      "desc":"You gain an improved version of the Hunter's Prey choice you chose at 3rd level:<br><ul><li><b>Titan Feller.</b> Replaces Collosus Slayer. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum.</li><li><b>Leviathan Retaliation.</b> Replaces Giant Killer. When a Large or larger creature within reach of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature. You make this attack at advantage, and if it hits, that creature also cannot take reactions until the end of your next turn.</li><li><b>Swarm Obliterator.</b> Replaces Horde Breaker. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 2 meters of the original target and within range of your weapon. If this attack reduces a creature to 0 hit points, you can make an additional weapon attack against a creature within 2 meters of the second target, and within range of your weapon.</li></ul>",
+      "type":"Class Boon",
+      "id":274
+    },
+    {
+      "name":"Defensive Tact", 
+      "cost":3,
+      "prereq":"Hunter Ranger level 9th",
+      "desc":"You gain an improved version of the Defensive Tactics choice you chose at 7th level:<br><ul><li><b>Punish the Horde.</b> Replaces Escape the Horde. Opportunity attacks against you are made with disadvantage. If a creature makes an opportunity attack against you, you can make a weapon attack against them. </li><li><b>Slow Attacks.</b> Replaces Multiattack Defense. When you hit a creature with a weapon attack that can make multiple attacks per turn, you can use your bonus action to give that creature disadvantage on all of their attacks on their next turn.</li><li><b>Steel Spirit.</b> Replaces Steel Will. You are immune to the frightened condition. When a creature would otherwise cause you to make a Wisdom saving throw against being frightened, you can use your reaction to make a weapon attack against them.</li></ul>.",
+      "type":"Class Boon",
+      "id":275
+    },
+    {
+      "name":"Slayer's Mark", 
+      "cost":2,
+      "prereq":"Monster Slayer Ranger level 3rd",
+      "desc":"When a creature is marked by your Slayer's Prey, you can use a bonus action to make a weapon attack against them.",
+      "type":"Class Boon",
+      "id":276
+    },
+    {
+      "name":"Slayer's Capability", 
+      "cost":3,
+      "prereq":"Monster Slayer Ranger level 9th",
+      "desc":"The extra damage from your Slayer's Prey ability occurs each time you make a weapon attack. Additionally, your Supernatural Defense die becomes a d8.",
+      "type":"Class Boon",
+      "id":277
+    },
+    //Rogue Class Boons
+    {
+      "name":"Improved Sneak Attack", 
+      "cost":2,
+      "prereq":"Rogue level 3rd",
+      "desc":"Your sneak attack damage increases by 1d6. This increase does not count against your sneak attack damage by level.",
+      "type":"Class Boon",
+      "id":278
+    },
+    {
+      "name":"Supreme Sneak Attack", 
+      "cost":3,
+      "prereq":"Rogue level 9th",
+      "desc":"When you would be able to deal sneak attack damage on an attack, you can choose to take a -5 penalty to the attack roll. If you do so, your sneak attack damage dice become d8's.",
+      "type":"Class Boon",
+      "id":279
+    },
+    {
+      "name":"Nimble Casting", 
+      "cost":2,
+      "prereq":"Arcane Trickster Rogue level 3rd",
+      "desc":"You can use Dexterity, instead of Intelligence, as your spellcasting ability modifier. This affects your spellcasting attack modifier, and spell save DC.",
+      "type":"Class Boon",
+      "id":280
+    },
+    {
+      "name":"Ambushing Spell", 
+      "cost":3,
+      "prereq":"Arcane Trickster Rogue level 9th",
+      "desc":"If you have advantage on a spell attack roll, and that spell deals damage, you can add your sneak attack to the damage. You can apply your sneak attack damage to only one attack per turn.",
+      "type":"Class Boon",
+      "id":281
+    },
+    {
+      "name":"Assassin's Infiltration", 
+      "cost":2,
+      "prereq":"Assassin Rogue level 3rd",
+      "desc":"You gain a +3 bonus to deception checks, and advantage on deception and performance checks to pass yourself off as another person.",
+      "type":"Class Boon",
+      "id":282
+    },
+    {
+      "name":"Deft Hand", 
+      "cost":3,
+      "prereq":"Assassin Rogue level 9th",
+      "desc":"You can mark a creature with Careful Strike as a bonus action.",
+      "type":"Class Boon",
+      "id":283
+    },
+    {
+      "name":"Greater Insight", 
+      "cost":2,
+      "prereq":"Inquisitive Rogue level 3rd",
+      "desc":"You can learn of the creature's current hit points, armor class, or specific saving throw modifier when you use Insightful Fighting on it.",
+      "type":"Class Boon",
+      "id":284
+    },
+    {
+      "name":"Infallible Eye", 
+      "cost":3,
+      "prereq":"Inquisitive Rogue level 9th",
+      "desc":"Treat a roll of 14 or lower when you make a Perception or Investigation check as a 15.",
+      "type":"Class Boon",
+      "id":285
+    },
+    {
+      "name":"Pin-Point Tactician", 
+      "cost":2,
+      "prereq":"Mastermind Rogue level 3rd",
+      "desc":"When you use the help action to aid an attack roll, you can roll your sneak attack damage as a part of the attack's damage. You can add your sneak attack damage to only one attack per turn.",
+      "type":"Class Boon",
+      "id":286
+    },
+    {
+      "name":"Master Manipulator", 
+      "cost":3,
+      "prereq":"Mastermind Rogue level 9th",
+      "desc":"You can use Insightful Manipulator as an action, and when you do so, you learn of all the statistics given to you as an option by Insightful Manipulator.",
+      "type":"Class Boon",
+      "id":287
+    },
+    {
+      "name":"Expert Skirmisher", 
+      "cost":2,
+      "prereq":"Scout Rogue level 3rd",
+      "desc":"When you use your Skirmisher ability, you may also immediately make an attack of opportunity against the creature that provoked it.",
+      "type":"Class Boon",
+      "id":288
+    },
+    {
+      "name":"Extraordinary Mobility", 
+      "cost":3,
+      "prereq":"Scout Rogue level 9th",
+      "desc":"You can move through the space of any creature. The space of another creature counts as difficult terrain for you, and you may not end your turn inside of another creature's space.",
+      "type":"Class Boon",
+      "id":289
+    },
+    {
+      "name":"Rakish Duel", 
+      "cost":2,
+      "prereq":"Swashbuckler Rogue level 3rd",
+      "desc":"You can use your bonus action to compell a creature to duel you. The target must make a Charisma saving throw against DC 8 + your proficiency bonus + your Charisma modifier. If they fail, they must use their movement on their next turn to get within reach of you.",
+      "type":"Class Boon",
+      "id":290
+    },
+    {
+      "name":"Beguiling Panache", 
+      "cost":3,
+      "prereq":"Swashbuckler Rogue level 9th",
+      "desc":"A hostile creature you affect with Panache is considered blind to all creatures other than you. Additionally, Panache does not end if you or one of your allies hurts the target creature.",
+      "type":"Class Boon",
+      "id":291
+    },
+    {
+      "name":"Thief's Technique", 
+      "cost":2,
+      "prereq":"Thief Rogue level 3rd",
+      "desc":"Your jump distance increases by a number of meters equal to your proficiency bonus. Additionally, reduce any fall damage you take by an amount equal to your Rogue level.",
+      "type":"Class Boon",
+      "id":292
+    },
+    {
+      "name":"Supreme Maneuverability", 
+      "cost":3,
+      "prereq":"Thief Rogue level 9th",
+      "desc":"If you move no more than half of your movement on a turn, you have advantage on acrobatics, sleight of hand, and stealth checks.",
+      "type":"Class Boon",
+      "id":293
+    },
+    //Sorcerer Class Boons
+    {
+      "name":"Deepened Magical Font", 
+      "cost":2,
+      "prereq":"Sorcerer level 3rd",
+      "desc":"You gain 2 maximum sorcery points. This increase does not count against your maximum number of sorcery points per level.",
+      "type":"Class Boon",
+      "id":294
+    },
+    {
+      "name":"Hastened Spell Conversion", 
+      "cost":2,
+      "prereq":"Sorcerer level 9th",
+      "desc":"With your Font of Magic ability, you can create and convert spell slots as a reaction as well as a bonus action on your turn.",
+      "type":"Class Boon",
+      "id":295
+    },
+    {
+      "name":"Exalted Favor", 
+      "cost":2,
+      "prereq":"Divine Soul Sorcerer level 3rd",
+      "desc":"You can use Favored by the Gods one additional time per rest.",
+      "type":"Class Boon",
+      "id":296
+    },
+    {
+      "name":"Divine Healing", 
+      "cost":3,
+      "prereq":"Divine Soul Sorcerer level 9th",
+      "desc":"The range of Empowered Healing becomes sight for you.",
+      "type":"Class Boon",
+      "id":297
+    },
+    {
+      "name":"Draconic Resilience", 
+      "cost":2,
+      "prereq":"Draconic Bloodline Sorcerer level 3rd",
+      "desc":"Your hit point maximum increases by 20. You may take this boon only once.",
+      "type":"Class Boon",
+      "id":298
+    },
+    {
+      "name":"Draconic Affinity", 
+      "cost":3,
+      "prereq":"Draconic Bloodline Sorcerer level 9th",
+      "desc":"Choose one additional Draconic Ancestry. You gain all of its effects as well as your original ancestry.",
+      "type":"Class Boon",
+      "id":299
+    },
+    {
+      "name":"Grip of Dusk", 
+      "cost":2,
+      "prereq":"Shadow Essence Sorcerer level 3rd",
+      "desc":"You can use Strength of the Grave until you fall to 0 hit points.",
+      "type":"Class Boon",
+      "id":300
+    },
+    {
+      "name":"Hound of Shade", 
+      "cost":3,
+      "prereq":"Shadow Essence Sorcerer level 9th",
+      "desc":"Your Hound of Ill Omen gains the following features:<br><ul><li>Its size is large.</li><li>The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 30 minutes.</li><li>When your hound disappears as a result of reducing a creature to 0 hit points, you can use a reaction to raise it again at full hit points against another creature within range for 2 sorcery points.</li></ul>.",
+      "type":"Class Boon",
+      "id":301
+    },
+    {
+      "name":"Furorous Travel", 
+      "cost":2,
+      "prereq":"Storm Magic Sorcerer level 3rd",
+      "desc":"You may move through up to 1 creature using Tempestuous Magic. That creature then takes thunder or lightning damage (your choice) equal to half your Sorcerer level.",
+      "type":"Class Boon",
+      "id":302
+    },
+    {
+      "name":"Heart of the Hurricane", 
+      "cost":3,
+      "prereq":"Storm Magic Sorcerer level 9th",
+      "desc":"Each time Heart of the Storm activates, you can fly a number of meters equal to the level of spell you are casting.",
+      "type":"Class Boon",
+      "id":303
+    },
+    //Warlock Class Boons
+    {
+      "name":"Additional Eldritch Invocation", 
+      "cost":2,
+      "prereq":"Warlock level 3rd",
+      "desc":"You learn one additional Eldritch Invoaction. This does not count against your number of Eldritch Invocations per level.",
+      "type":"Class Boon",
+      "id":302
+    },
+    {
+      "name":"Eldritch Blade Mastery", 
+      "cost":2,
+      "prereq":"Pact of the Blade Warlock level 5th",
+      "desc":"You may bond to a pact weapon as a ritual that takes only 1 minute. Additionally, you may bond to an artifact or sentient weapon.",
+      "type":"Class Boon",
+      "id":303
+    },
+    {
+      "name":"Eldritch Chain Mastery", 
+      "cost":2,
+      "prereq":"Pact of the Chain Warlock level 5th",
+      "desc":"When you cast the Find Familiar spell, your familiar's maximum hit points increase by an amount equal to your Warlock level + your proficiency bonus.",
+      "type":"Class Boon",
+      "id":304
+    },
+    {
+      "name":"Eldritch Tome Mastery", 
+      "cost":2,
+      "prereq":"Pact of the Tome Warlock level 5th",
+      "desc":"You replace a warlock spell you know with any spell from any class' spell list. This spell must be of a level that you can cast.",
+      "type":"Class Boon",
+      "id":305
+    },
+    {
+      "name":"Riveting Presence", 
+      "cost":2,
+      "prereq":"Archfey Warlock level 3rd",
+      "desc":"Creatures affected by your Fey Presence ability, they must make a Wisdom saving throw at the end of each of their turns against your spell save DC to end it. Alternatively, you can dismiss it as a free action.",
+      "type":"Class Boon",
+      "id":306
+    },
+    {
+      "name":"Archfey's Escape", 
+      "cost":3,
+      "prereq":"Archfey Warlock level 9th",
+      "desc":"When you use Misty Escape, you gain resistance to the attack's damage and may teleport up to 200 meters away.",
+      "type":"Class Boon",
+      "id":307
+    },
+    {
+      "name":"Radiant Light", 
+      "cost":2,
+      "prereq":"Celestial Warlock level 3rd",
+      "desc":"Your Healing Light dice become d8's.",
+      "type":"Class Boon",
+      "id":308
+    },
+    {
+      "name":"Celestial Soul", 
+      "cost":3,
+      "prereq":"Celestial Warlock level 9th",
+      "desc":"As long as you have a number of Radiant Light dice equal to your proficiency bonus, you have immunity to radiant damage and resistance to necrotic damage.",
+      "type":"Class Boon",
+      "id":309
+    },
+    {
+      "name":"Invigorating Blessing", 
+      "cost":2,
+      "prereq":"Fiend Warlock level 3rd",
+      "desc":"While you have temporary hit points from Dark One's Blessing, you have a +1 bonus to attack rolls and saving throws.",
+      "type":"Class Boon",
+      "id":310
+    },
+    {
+      "name":"Fiendish Luck", 
+      "cost":3,
+      "prereq":"Fiend Warlock level 9th",
+      "desc":"You can use Dark One's Own Luck on an attack roll or damage roll. Additionally, you gain one additional use per rest.",
+      "type":"Class Boon",
+      "id":311
+    },
+    {
+      "name":"Transmissable Mind", 
+      "cost":2,
+      "prereq":"Great Old One Warlock level 3rd",
+      "desc":"The distance at which you can communicate using Awakened Mind becomes 10 meters * your warlock level.",
+      "type":"Class Boon",
+      "id":312
+    },
+    {
+      "name":"Glimpse of the Unknowable", 
+      "cost":3,
+      "prereq":"Great Old One Warlock level 9th",
+      "desc":"A creature that misses you as a result of Entropic Ward becomes paralyzed until the end of its next turn.",
+      "type":"Class Boon",
+      "id":313
+    },
+    {
+      "name":"One of the Dead", 
+      "cost":2,
+      "prereq":"Undying Warlock level 3rd",
+      "desc":"You are immune to disease, and creatures cannot become immune to the effects of Among the Dead as a result of succeeding on the saving throw.",
+      "type":"Class Boon",
+      "id":314
+    },
+    {
+      "name":"Undying Breath", 
+      "cost":3,
+      "prereq":"Undying Warlock level 9th",
+      "desc":"You gain advantage on death saving throws as long as you have at least one unused warlock spell slot.",
+      "type":"Class Boon",
+      "id":315
+    },
+    //Wizard Class Boons
+    {
+      "name":"Cantrip Formulae", 
+      "cost":2,
+      "prereq":"Wizard level 3rd",
+      "desc":"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
+      "type":"Class Boon",
+      "id":316
+    },
+    {
+      "name":"Improved Arcane Recovery", 
+      "cost":3,
+      "prereq":"Wizard level 13th",
+      "desc":"When you use Arcane Recovery, you can recover 6th and 7th level spell slots.",
+      "type":"Class Boon",
+      "id":317
+    },
+    {
+      "name":"Greater Arcane Recovery", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(317)' href='#'>Improved Arcane Recovery</a>, Wizard level 17th",
+      "desc":"When you use Arcane Recovery, you can recover 8th and 9th level spell slots.",
+      "type":"Class Boon",
+      "id":318
+    },
+    {
+      "name":"Abjuration Adept", 
+      "cost":2,
+      "prereq":"Abjuration Wizard level 3rd",
+      "desc":"You replenish your Arcane Ward when you finish a short rest.",
+      "type":"Class Boon",
+      "id":319
+    },
+    {
+      "name":"Shielding Force", 
+      "cost":3,
+      "prereq":"Abjuration Wizard level 9th",
+      "desc":"The range of your Projected Ward increases to 20 meters, and the creature it is protecting doesn't take any leftover damage from damage the ward takes.",
+      "type":"Class Boon",
+      "id":320
+    },
+    {
+      "name":"Conjuration Adept", 
+      "cost":2,
+      "prereq":"Abjuration Wizard level 3rd",
+      "desc":"An object you create using Minor Conjuration can have dimensions of up to 3 meters, and weigh up to 200 kilograms.",
+      "type":"Class Boon",
+      "id":321
+    },
+    {
+      "name":"Portal Walker", 
+      "cost":3,
+      "prereq":"Abjuration Wizard level 9th",
+      "desc":"You can use Benign Transportation as a bonus action. Additionally, its range increases to 20 meters.",
+      "type":"Class Boon",
+      "id":322
+    },
+    {
+      "name":"Divination Adept", 
+      "cost":2,
+      "prereq":"Divination Wizard level 3rd",
+      "desc":"When you use a portent die, you can instead choose to add or subtract a d8 from a creature's roll.",
+      "type":"Class Boon",
+      "id":323
+    },
+    {
+      "name":"Prophecy", 
+      "cost":3,
+      "prereq":"Divination Wizard level 9th",
+      "desc":"When you finish a long rest, you can choose to save 1 portent die for the next day.",
+      "type":"Class Boon",
+      "id":324
+    },
+    {
+      "name":"Enchantment Adept", 
+      "cost":2,
+      "prereq":"Enchantment Wizard level 3rd",
+      "desc":"The range of Hypnotic Gaze becomes 10 meters.",
+      "type":"Class Boon",
+      "id":325
+    },
+    {
+      "name":"Unstoppable Charm", 
+      "cost":3,
+      "prereq":"Enchantment Wizard level 9th",
+      "desc":"A creature can be targeted by Instinctive Charm again even if they succeeded on a saving throw against the ability. Additionally, the first time a creature is affected by Instinctive Charm, they have disadvantage on the saving throw.",
+      "type":"Class Boon",
+      "id":326
+    },
+    {
+      "name":"Illusion Adept", 
+      "cost":2,
+      "prereq":"Illusion Wizard level 3rd",
+      "desc":"When you cast an illusion spell of 3rd level or lower that requires concentration and does not damage another creature, it does not require concentration for you.",
+      "type":"Class Boon",
+      "id":327
+    },
+    {
+      "name":"Ever-Shifting Illusions", 
+      "cost":3,
+      "prereq":"Illusion Wizard level 9th",
+      "desc":"You can use Malleable Illusions as a reaction. Additionally, you do not need to be able to see an illusion to use this ability.",
+      "type":"Class Boon",
+      "id":328
+    },
+    {
+      "name":"Evocation Adept", 
+      "cost":2,
+      "prereq":"Evocation Wizard level 3rd",
+      "desc":"When you cast an evocation spell that requires creatures to make a saving throw, you can give those creatures advantage on the saving throw. If they fail, they take double damage from the spell.",
+      "type":"Class Boon",
+      "id":329
+    },
+    {
+      "name":"Irresistable Spell", 
+      "cost":3,
+      "prereq":"Evocation Wizard level 9th",
+      "desc":"If a creature would take no damage as a result of succeeding on a saving throw against an evocation spell you cast, they take half damage instead.",
+      "type":"Class Boon",
+      "id":330
+    },
+    {
+      "name":"Necromancy Adept", 
+      "cost":2,
+      "prereq":"Necromancy Wizard level 3rd",
+      "desc":"When you use Grim Harvest, you also gain a number of temporary hit points equal to twice the spell's level.",
+      "type":"Class Boon",
+      "id":331
+    },
+    {
+      "name":"Greusome Horde", 
+      "cost":3,
+      "prereq":"Necromancy Wizard level 9th",
+      "desc":"You may target up to two additional corpses, instead of one, when you use Undead Thralls.",
+      "type":"Class Boon",
+      "id":332
+    },
 ];
+
+//Link to a boon --> <a onclick='xmlhttp.onreadystatechange(id)' href='#'>Boon Name</a>

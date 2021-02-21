@@ -1,3 +1,12 @@
+### Version 0.09
+
+In this version, the following features were added:
+
+- Better link styling
+- More readable fonts and text size
+
+Also in this version, a link to the Homebrew Archives Discord, a conditions page, and the Ranger, Rogue, Sorcerer, Warlock, and Wizard Class Boons were added.
+
 ### Version 0.08 
 
 In this version, a character creation page along with Fighter, Monk, and Paladin Class Boons were added.

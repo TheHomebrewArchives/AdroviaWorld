@@ -4,7 +4,7 @@ $(document).ready(function() {
     var tr;
     $.each(a1, function(k, v) {
       tr = $("<tr></tr>");
-      tr.append("<td><a onclick='xmlhttp.onreadystatechange(" + v.id + ")' href='#'>" + v.name + "</a></td>");
+      tr.append("<td><a class='boonDisplayLink' onclick='xmlhttp.onreadystatechange(" + v.id + ")' href='#'>" + v.name + "</a></td>");
       tr.append("<td>" + v.cost + "</td>");
       tr.append("<td class='" + v.type.split(" ").join("") + "'>" + v.type + "</td>");
       tr.append("<td>" + v.prereq + "</td>");
