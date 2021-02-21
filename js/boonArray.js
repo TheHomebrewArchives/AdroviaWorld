@@ -1698,4 +1698,447 @@ var a1 = [
       "type":"Class Boon",
       "id":210
     },
+    //Fighter Class Boons
+    {
+      "name":"Third Wind", 
+      "cost":3,
+      "prereq":"Fighter level 3rd",
+      "desc":"You can use Second Wind one additional time between rests.<br><br>You can select this boon only once.",
+      "type":"Class Boon",
+      "id":211
+    },
+    {
+      "name":"Greater Indomitability", 
+      "cost":3,
+      "prereq":"Fighter level 9th",
+      "desc":"You can use Indomitable one additional time between long rests.",
+      "type":"Class Boon",
+      "id":212
+    },
+    {
+      "name":"Additional Arcane Shot", 
+      "cost":2,
+      "prereq":"Arcane Archer Fighter level 3rd",
+      "desc":"You gain one additional use of Arcane Shot between rests.",
+      "type":"Class Boon",
+      "id":213
+    },
+    {
+      "name":"Arrow of Force", 
+      "cost":3,
+      "prereq":"Arcane Archer Fighter level 9th",
+      "desc":"When you shoot a magical arrow, you can choose for the arrow to deal force damage instead of its normal damage type. Additionally, all arrows you shoot deal an additional 1d4 force damage.",
+      "type":"Class Boon",
+      "id":214
+    },
+    {
+      "name":"Inspiring Cry", 
+      "cost":2,
+      "prereq":"Banneret Fighter level 3rd",
+      "desc":"When you use Rallying Cry, all affected creatures also gain a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the die, but must decide before the GM says whether the roll succeeds or fails. Once the die is rolled, it is lost.",
+      "type":"Class Boon",
+      "id":215
+    },
+    {
+      "name":"United Protection", 
+      "cost":3,
+      "prereq":"Banneret Fighter level 9th",
+      "desc":"All allies within 5 meters of you gain a +1 bonus to AC and saving throws.",
+      "type":"Class Boon",
+      "id":216
+    },
+    {
+      "name":"Greater Superiority", 
+      "cost":2,
+      "prereq":"Battle Master Fighter level 3rd",
+      "desc":"Your Combat Superiority dice become d10's.",
+      "type":"Class Boon",
+      "id":217
+    },
+    {
+      "name":"Knowledge's Advantage", 
+      "cost":3,
+      "prereq":"Battle Master Fighter level 9th",
+      "desc":"When you use Know Your Enemy on a creature, within the next 10 minutes the first attack roll that creature makes against you is made at disadvantage, and the first attack roll you make against them is made at advantage.",
+      "type":"Class Boon",
+      "id":218
+    },
+    {
+      "name":"Mark of the Cavalier", 
+      "cost":2,
+      "prereq":"Cavalier Fighter level 3rd",
+      "desc":"When you mark a creature on your turn with Unwavering Mark, they become marked until the end of your next turn. Additionally, you gain advantage on the first attack roll made against a marked creature on your turn.",
+      "type":"Class Boon",
+      "id":219
+    },
+    {
+      "name":"Warding Stance", 
+      "cost":3,
+      "prereq":"Cavalier Fighter level 9th",
+      "desc":"You may use Warding Maneuver an unlimited number of times between rests. But, you must use your action to enter a Warding Stance to use Warding Maneuver. This stance lasts for 1 minute, or until you fall unconscious.",
+      "type":"Class Boon",
+      "id":220
+    },
+    {
+      "name":"Champion's Critical", 
+      "cost":2,
+      "prereq":"Champion Fighter level 3rd",
+      "desc":"You gain the<a onclick='xmlhttp.onreadystatechange(72)' href='#'>Improved Critical</a>boon. The level requirements for all Critical Boons are considered as 2 levels less for you.",
+      "type":"Class Boon",
+      "id":221
+    },
+    {
+      "name":"Peak Performance", 
+      "cost":3,
+      "prereq":"Champion Fighter level 9th",
+      "desc":"You gain a +5 bonus to Athletics checks.",
+      "type":"Class Boon",
+      "id":222
+    },
+    {
+      "name":"Eldritch Weapon", 
+      "cost":2,
+      "prereq":"Eldritch Knight Fighter level 3rd",
+      "desc":"A non-magical weapon bonded to you by Weapon Bond is considered magical, and gains a +1 bonus to attack rolls.",
+      "type":"Class Boon",
+      "id":223
+    },
+    {
+      "name":"Eldritch Smite", 
+      "cost":3,
+      "prereq":"Eldritch Knight Fighter level 9th",
+      "desc":"When you hit a creature with a weapon attack on your turn, you can use your bonus action to expend a spell slot to deal extra force damage to the target. The extra damage is 2d8 for a 1st level spell slot, plus 1d8 for each spell level above 1st, to a maximum of 5d8.",
+      "type":"Class Boon",
+      "id":224
+    },
+    {
+      "name":"Intense Spirit", 
+      "cost":2,
+      "prereq":"Samurai Fighter level 3rd",
+      "desc":"While you have temporary hit points granted to you by Fighting Spirit, you also gain a bonus 1d4 to attack rolls.",
+      "type":"Class Boon",
+      "id":225
+    },
+    {
+      "name":"Unbreakable Spirit", 
+      "cost":3,
+      "prereq":"Samurai Fighter level 9th",
+      "desc":"You have advantage on Wisdom saving throws.",
+      "type":"Class Boon",
+      "id":226
+    },
+    //Monk Class Boons
+    {
+      "name":"Deepened Ki", 
+      "cost":2,
+      "prereq":"Monk level 3rd",
+      "desc":"Your ki pool increases by 2 points.",
+      "type":"Class Boon",
+      "id":227
+    },
+    {
+      "name":"Greater Martial Arts", 
+      "cost":3,
+      "prereq":"Monk level 5th",
+      "desc":"Your Martial Arts damage die increases by 1 step.",
+      "type":"Class Boon",
+      "id":228
+    },
+    {
+      "name":"Spider Step", 
+      "cost":2,
+      "prereq":"Monk level 7th",
+      "desc":"When you use Step of the Wind, you may move across any solid surface. When you do so, you do not fall until you use movement on your turn.",
+      "type":"Class Boon",
+      "id":229
+    },
+    {
+      "name":"Wind Step", 
+      "cost":3,
+      "prereq":"<a onclick='xmlhttp.onreadystatechange(229)' href='#'>Spider Step</a>Monk level 11th",
+      "desc":"When you use Step of the Wind, you gain a flying speed equal to your walking speed. You do not fall until you use movement on your turn.",
+      "type":"Class Boon",
+      "id":230
+    },
+    {
+      "name":"Drunken Movement", 
+      "cost":2,
+      "prereq":"Drunken Master Monk level 3rd",
+      "desc":"When you use Drunken Technique, your movement speed increases by an addtional 3 meters.",
+      "type":"Class Boon",
+      "id":231
+    },
+    {
+      "name":"Drunken Tumble", 
+      "cost":3,
+      "prereq":"Drunken Master Monk level 9th",
+      "desc":"When a creature attacks you with a weapon attack on their turn, you can spend 2 ki points. That creature gains disadvantage on that attack roll against you.",
+      "type":"Class Boon",
+      "id":232
+    },
+    {
+      "name":"Elemental Arts", 
+      "cost":2,
+      "prereq":"Way of the Elements Monk level 3rd",
+      "desc":"When you use your action to cast a Way of the Elements spell, you can make an unarmed strike as a bonus action.",
+      "type":"Class Boon",
+      "id":233
+    },
+    {
+      "name":"Elements Master", 
+      "cost":3,
+      "prereq":"Way of the Elements Monk level 9th",
+      "desc":"You have immunity to the damage of Way of the Elements spells you cast.",
+      "type":"Class Boon",
+      "id":234
+    },
+    {
+      "name":"Kensei's Parry", 
+      "cost":2,
+      "prereq":"Kensei Monk level 3rd",
+      "desc":"You can use Agile Parry even if the Kensei weapon you are wielding is a ranged weapn. Additionally, if a creature hits you with a weapon attack while you are under the effects of Agile Parry, you can make an unarmed strike as a reaction against that creature.",
+      "type":"Class Boon",
+      "id":235
+    },
+    {
+      "name":"Kensei Strike", 
+      "cost":3,
+      "prereq":"Kensei Monk level 9th",
+      "desc":"When you hit a creature with a kensei weapon on your turn, you can spend 2 ki point to give that creature vulnerability against damage of the next attack you make against them.",
+      "type":"Class Boon",
+      "id":236
+    },
+    {
+      "name":"Stolen Vitality", 
+      "cost":2,
+      "prereq":"Long Death Monk level 3rd",
+      "desc":"When you reduce a creature within reach of you to 0 hit points, you can spend 1 ki point to gain a number of hit points equal to that creature's hit dice + your Wisdom modifier.",
+      "type":"Class Boon",
+      "id":237
+    },
+    {
+      "name":"Wraith of Death", 
+      "cost":3,
+      "prereq":"Long Death Monk level 9th",
+      "desc":"When a creature fails its saving throw against Hour of Reaping, you can spend 1 ki point to gain advantage on attack rolls against that creature until the end of your next turn.",
+      "type":"Class Boon",
+      "id":238
+    },
+    {
+      "name":"Tranquil Stance", 
+      "cost":2,
+      "prereq":"Lotus Monk level 3rd",
+      "desc":"While in your Lotus Stance, you also gain a number of temporary hit points at the start of your turn equal to your Wisdom modifier.",
+      "type":"Class Boon",
+      "id":239
+    },
+    {
+      "name":"Expected Strike", 
+      "cost":3,
+      "prereq":"Lotus Monk level 9th",
+      "desc":"When a creature misses you with an attack while in your Lotus Stance, you can make a melee weapon attack against them without spending a reaction.",
+      "type":"Class Boon",
+      "id":240
+    },
+    {
+      "name":"Open Hand Expertise", 
+      "cost":2,
+      "prereq":"Open Hand Monk level 3rd",
+      "desc":"While you have at least 1 ki point in your ki pool, creatures have disadvantage on saving throws against your Open Hand Technique.",
+      "type":"Class Boon",
+      "id":241
+    },
+    {
+      "name":"Overflow of Body", 
+      "cost":3,
+      "prereq":"Open Hand Monk level 9th",
+      "desc":"When you use Wholeness of Body, you also gain a number of temporary hit points equal to two times your monk level.",
+      "type":"Class Boon",
+      "id":242
+    },
+    {
+      "name":"One with Darkness", 
+      "cost":2,
+      "prereq":"Shadow Monk level 3rd",
+      "desc":"When you use ki points to cast Darkness, you can see through the darkness normally.",
+      "type":"Class Boon",
+      "id":243
+    },
+    {
+      "name":"Step of Shade", 
+      "cost":3,
+      "prereq":"Shadow Monk level 9th",
+      "desc":"Your movement speed increases by a number of meters equal to your monk level while in darkness.",
+      "type":"Class Boon",
+      "id":244
+    },
+    {
+      "name":"Seeking Sun Bolt", 
+      "cost":2,
+      "prereq":"Sun Soul Monk level 3rd",
+      "desc":"When you use Radiant Sun Bolt, you add both your Wisdom and Dexterity modifier to the attack roll.",
+      "type":"Class Boon",
+      "id":245
+    },
+    {
+      "name":"Radiant Arc Strike", 
+      "cost":3,
+      "prereq":"Sun Soul Monk level 9th",
+      "desc":"When you cast Burning Hands using ki points, the damage dice increase by one step.",
+      "type":"Class Boon",
+      "id":246
+    },
+    //Paladin Class Boons
+    {
+      "name":"Healing Hands", 
+      "cost":2,
+      "prereq":"Paladin level 3rd",
+      "desc":"Your Lay on Hands pool increases by a number of points equal to your Paladin level + 5.",
+      "type":"Class Boon",
+      "id":247
+    },
+    {
+      "name":"Strike of Conquest", 
+      "cost":2,
+      "prereq":"Conquest Paladin level 3rd",
+      "desc":"When you use a Conquest Paladin Channel Divinity option, you gain advantage on your next weapon attack.",
+      "type":"Class Boon",
+      "id":248
+    },
+    {
+      "name":"Iron Grip of Conquest", 
+      "cost":3,
+      "prereq":"Conquest Paladin level 9th",
+      "desc":"While a creature within your Aura of Conquest is frightened of you due to Conquering Presence, you can use your bonus action to cause that creature to automatically fail their next saving throw against it.",
+      "type":"Class Boon",
+      "id":249
+    },
+    {
+      "name":"Weapon of Devotion", 
+      "cost":2,
+      "prereq":"Devotion Paladin level 3rd",
+      "desc":"You cannot be disarmed of a weapon affected by your Sacred Weapon. Additionally, you gain a number of temporary hit points equal to your Charisma modifier at the start of your turn as long as you are still wielding your Sacred Weapon.",
+      "type":"Class Boon",
+      "id":250
+    },
+    {
+      "name":"Greater Devotion Aura", 
+      "cost":3,
+      "prereq":"Devotion Paladin level 9th",
+      "desc":"All healing spells you cast on creatures within your Aura of Devotion heal for their maximum amount.",
+      "type":"Class Boon",
+      "id":251
+    },
+    {
+      "name":"Glorious Smite", 
+      "cost":2,
+      "prereq":"Glory Paladin level 3rd",
+      "desc":"When you use Divine Smite o reduce a creature to 0 hit points, you have advantage on your next attack roll on the same turn.",
+      "type":"Class Boon",
+      "id":252
+    },
+    {
+      "name":"Greater Alacrity Aura", 
+      "cost":3,
+      "prereq":"Glory Paladin level 9th",
+      "desc":"The radius of your Aura of Alacrity increases to 10 meters.",
+      "type":"Class Boon",
+      "id":253
+    },
+    {
+      "name":"Channel Heroism", 
+      "cost":2,
+      "prereq":"Heroism Paladin level 3rd",
+      "desc":"When you use a Heroism Paladin Channel Divinity option, you gain a number of temporary hit points equal to your Paladin level.",
+      "type":"Class Boon",
+      "id":254
+    },
+    {
+      "name":"Heroic Deed", 
+      "cost":3,
+      "prereq":"Heroism Paladin level 9th",
+      "desc":"When you score a critical hit or reduce a creature to 0 hit points, you have advantage on your next saving throw until the end of your next turn.",
+      "type":"Class Boon",
+      "id":255
+    },
+    {
+      "name":"Retaliation of the Provoked", 
+      "cost":2,
+      "prereq":"Redemtion Paladin level 3rd",
+      "desc":"When you use Rebuke of the Violent, the attacked creature may make a melee weapon attack as a reaction.",
+      "type":"Class Boon",
+      "id":256
+    },
+    {
+      "name":"Greater Guardian Aura", 
+      "cost":3,
+      "prereq":"Redemption Paladin level 9th",
+      "desc":"You have resistance to damage from Aura of the Guardian.",
+      "type":"Class Boon",
+      "id":257
+    },
+    {
+      "name":"Nature's Hold", 
+      "cost":2,
+      "prereq":"Ancients Paladin level 3rd",
+      "desc":"While a creature is restrained as a result of your Nature's Wrath, it also is blind and has disadvantage on saving throws to break free.",
+      "type":"Class Boon",
+      "id":258
+    },
+    {
+      "name":"Greater Warding Aura", 
+      "cost":3,
+      "prereq":"Ancients Paladin level 9th",
+      "desc":"Creatures within your Aura of Warding have advantage on saving throws against spells.",
+      "type":"Class Boon",
+      "id":259
+    },
+    {
+      "name":"Champion's Call", 
+      "cost":2,
+      "prereq":"Crown Paladin level 3rd",
+      "desc":"A creature affected by your Champion Challenge must use its movement to move closer to you.",
+      "type":"Class Boon",
+      "id":260
+    },
+    {
+      "name":"Extended Alliegence", 
+      "cost":3,
+      "prereq":"Crown Paladin level 9th",
+      "desc":"You can use Divine Alliegence on a creature within 10 meters of you. Additionally, you gain a number of temporary hit points equal to your Charisma modifier when you take damage as a result of Divine Alliegence.",
+      "type":"Class Boon",
+      "id":261
+    },
+    {
+      "name":"Hostile Abjure", 
+      "cost":2,
+      "prereq":"Vengeance Paladin level 3rd",
+      "desc":"WHen you use Abjure Creature, it does not end on a creature as a result of it taking damage.",
+      "type":"Class Boon",
+      "id":262
+    },
+    {
+      "name":"Coward's Choice", 
+      "cost":3,
+      "prereq":"Vengeance Paladin level 9th",
+      "desc":"You have advantage on opportunity attacks against creatures that move out of your reach.",
+      "type":"Class Boon",
+      "id":263
+    },
+    {
+      "name":"Grievous Aspect", 
+      "cost":2,
+      "prereq":"Oathbreaker Paladin level 3rd",
+      "desc":"A creature affected by your Dreadful Aspect takes 1d6 psychic damage at the beginning of their turn.",
+      "type":"Class Boon",
+      "id":264
+    },
+    {
+      "name":"Selective Atrocity", 
+      "cost":3,
+      "prereq":"Oathbreaker Paladin level 9th",
+      "desc":"Any creatures within your Aura of Hate that you choose gain a bonus to their melee weapon damage rolls equal to your Charisma modifier (minimum of +1).",
+      "type":"Class Boon",
+      "id":265
+    },
 ];
