@@ -2455,7 +2455,7 @@ var a1 = [
       "prereq":"Warlock level 3rd",
       "desc":"You learn one additional Eldritch Invoaction. This does not count against your number of Eldritch Invocations per level.",
       "type":"Class Boon",
-      "id":302
+      "id":304
     },
     {
       "name":"Eldritch Blade Mastery", 
@@ -2463,7 +2463,7 @@ var a1 = [
       "prereq":"Pact of the Blade Warlock level 5th",
       "desc":"You may bond to a pact weapon as a ritual that takes only 1 minute. Additionally, you may bond to an artifact or sentient weapon.",
       "type":"Class Boon",
-      "id":303
+      "id":305
     },
     {
       "name":"Eldritch Chain Mastery", 
@@ -2471,7 +2471,7 @@ var a1 = [
       "prereq":"Pact of the Chain Warlock level 5th",
       "desc":"When you cast the Find Familiar spell, your familiar's maximum hit points increase by an amount equal to your Warlock level + your proficiency bonus.",
       "type":"Class Boon",
-      "id":304
+      "id":306
     },
     {
       "name":"Eldritch Tome Mastery", 
@@ -2479,7 +2479,7 @@ var a1 = [
       "prereq":"Pact of the Tome Warlock level 5th",
       "desc":"You replace a warlock spell you know with any spell from any class' spell list. This spell must be of a level that you can cast.",
       "type":"Class Boon",
-      "id":305
+      "id":307
     },
     {
       "name":"Riveting Presence", 
@@ -2487,7 +2487,7 @@ var a1 = [
       "prereq":"Archfey Warlock level 3rd",
       "desc":"Creatures affected by your Fey Presence ability, they must make a Wisdom saving throw at the end of each of their turns against your spell save DC to end it. Alternatively, you can dismiss it as a free action.",
       "type":"Class Boon",
-      "id":306
+      "id":308
     },
     {
       "name":"Archfey's Escape", 
@@ -2495,7 +2495,7 @@ var a1 = [
       "prereq":"Archfey Warlock level 9th",
       "desc":"When you use Misty Escape, you gain resistance to the attack's damage and may teleport up to 200 meters away.",
       "type":"Class Boon",
-      "id":307
+      "id":309
     },
     {
       "name":"Radiant Light", 
@@ -2503,7 +2503,7 @@ var a1 = [
       "prereq":"Celestial Warlock level 3rd",
       "desc":"Your Healing Light dice become d8's.",
       "type":"Class Boon",
-      "id":308
+      "id":310
     },
     {
       "name":"Celestial Soul", 
@@ -2511,7 +2511,7 @@ var a1 = [
       "prereq":"Celestial Warlock level 9th",
       "desc":"As long as you have a number of Radiant Light dice equal to your proficiency bonus, you have immunity to radiant damage and resistance to necrotic damage.",
       "type":"Class Boon",
-      "id":309
+      "id":311
     },
     {
       "name":"Invigorating Blessing", 
@@ -2519,7 +2519,7 @@ var a1 = [
       "prereq":"Fiend Warlock level 3rd",
       "desc":"While you have temporary hit points from Dark One's Blessing, you have a +1 bonus to attack rolls and saving throws.",
       "type":"Class Boon",
-      "id":310
+      "id":312
     },
     {
       "name":"Fiendish Luck", 
@@ -2527,7 +2527,7 @@ var a1 = [
       "prereq":"Fiend Warlock level 9th",
       "desc":"You can use Dark One's Own Luck on an attack roll or damage roll. Additionally, you gain one additional use per rest.",
       "type":"Class Boon",
-      "id":311
+      "id":313
     },
     {
       "name":"Transmissable Mind", 
@@ -2535,7 +2535,7 @@ var a1 = [
       "prereq":"Great Old One Warlock level 3rd",
       "desc":"The distance at which you can communicate using Awakened Mind becomes 10 meters * your warlock level.",
       "type":"Class Boon",
-      "id":312
+      "id":314
     },
     {
       "name":"Glimpse of the Unknowable", 
@@ -2543,7 +2543,7 @@ var a1 = [
       "prereq":"Great Old One Warlock level 9th",
       "desc":"A creature that misses you as a result of Entropic Ward becomes paralyzed until the end of its next turn.",
       "type":"Class Boon",
-      "id":313
+      "id":315
     },
     {
       "name":"One of the Dead", 
@@ -2551,7 +2551,7 @@ var a1 = [
       "prereq":"Undying Warlock level 3rd",
       "desc":"You are immune to disease, and creatures cannot become immune to the effects of Among the Dead as a result of succeeding on the saving throw.",
       "type":"Class Boon",
-      "id":314
+      "id":316
     },
     {
       "name":"Undying Breath", 
@@ -2559,7 +2559,7 @@ var a1 = [
       "prereq":"Undying Warlock level 9th",
       "desc":"You gain advantage on death saving throws as long as you have at least one unused warlock spell slot.",
       "type":"Class Boon",
-      "id":315
+      "id":317
     },
     //Wizard Class Boons
     {
@@ -2568,7 +2568,7 @@ var a1 = [
       "prereq":"Wizard level 3rd",
       "desc":"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
       "type":"Class Boon",
-      "id":316
+      "id":318
     },
     {
       "name":"Improved Arcane Recovery", 
@@ -2576,7 +2576,7 @@ var a1 = [
       "prereq":"Wizard level 13th",
       "desc":"When you use Arcane Recovery, you can recover 6th and 7th level spell slots.",
       "type":"Class Boon",
-      "id":317
+      "id":319
     },
     {
       "name":"Greater Arcane Recovery", 
@@ -2584,7 +2584,7 @@ var a1 = [
       "prereq":"<a onclick='xmlhttp.onreadystatechange(317)' href='#'>Improved Arcane Recovery</a>, Wizard level 17th",
       "desc":"When you use Arcane Recovery, you can recover 8th and 9th level spell slots.",
       "type":"Class Boon",
-      "id":318
+      "id":320
     },
     {
       "name":"Abjuration Adept", 
@@ -2592,7 +2592,7 @@ var a1 = [
       "prereq":"Abjuration Wizard level 3rd",
       "desc":"You replenish your Arcane Ward when you finish a short rest.",
       "type":"Class Boon",
-      "id":319
+      "id":321
     },
     {
       "name":"Shielding Force", 
@@ -2600,7 +2600,7 @@ var a1 = [
       "prereq":"Abjuration Wizard level 9th",
       "desc":"The range of your Projected Ward increases to 20 meters, and the creature it is protecting doesn't take any leftover damage from damage the ward takes.",
       "type":"Class Boon",
-      "id":320
+      "id":322
     },
     {
       "name":"Conjuration Adept", 
@@ -2608,7 +2608,7 @@ var a1 = [
       "prereq":"Abjuration Wizard level 3rd",
       "desc":"An object you create using Minor Conjuration can have dimensions of up to 3 meters, and weigh up to 200 kilograms.",
       "type":"Class Boon",
-      "id":321
+      "id":323
     },
     {
       "name":"Portal Walker", 
@@ -2616,7 +2616,7 @@ var a1 = [
       "prereq":"Abjuration Wizard level 9th",
       "desc":"You can use Benign Transportation as a bonus action. Additionally, its range increases to 20 meters.",
       "type":"Class Boon",
-      "id":322
+      "id":324
     },
     {
       "name":"Divination Adept", 
@@ -2624,7 +2624,7 @@ var a1 = [
       "prereq":"Divination Wizard level 3rd",
       "desc":"When you use a portent die, you can instead choose to add or subtract a d8 from a creature's roll.",
       "type":"Class Boon",
-      "id":323
+      "id":325
     },
     {
       "name":"Prophecy", 
@@ -2632,7 +2632,7 @@ var a1 = [
       "prereq":"Divination Wizard level 9th",
       "desc":"When you finish a long rest, you can choose to save 1 portent die for the next day.",
       "type":"Class Boon",
-      "id":324
+      "id":326
     },
     {
       "name":"Enchantment Adept", 
@@ -2640,7 +2640,7 @@ var a1 = [
       "prereq":"Enchantment Wizard level 3rd",
       "desc":"The range of Hypnotic Gaze becomes 10 meters.",
       "type":"Class Boon",
-      "id":325
+      "id":327
     },
     {
       "name":"Unstoppable Charm", 
@@ -2648,7 +2648,7 @@ var a1 = [
       "prereq":"Enchantment Wizard level 9th",
       "desc":"A creature can be targeted by Instinctive Charm again even if they succeeded on a saving throw against the ability. Additionally, the first time a creature is affected by Instinctive Charm, they have disadvantage on the saving throw.",
       "type":"Class Boon",
-      "id":326
+      "id":328
     },
     {
       "name":"Illusion Adept", 
@@ -2656,7 +2656,7 @@ var a1 = [
       "prereq":"Illusion Wizard level 3rd",
       "desc":"When you cast an illusion spell of 3rd level or lower that requires concentration and does not damage another creature, it does not require concentration for you.",
       "type":"Class Boon",
-      "id":327
+      "id":329
     },
     {
       "name":"Ever-Shifting Illusions", 
@@ -2664,7 +2664,7 @@ var a1 = [
       "prereq":"Illusion Wizard level 9th",
       "desc":"You can use Malleable Illusions as a reaction. Additionally, you do not need to be able to see an illusion to use this ability.",
       "type":"Class Boon",
-      "id":328
+      "id":330
     },
     {
       "name":"Evocation Adept", 
@@ -2672,7 +2672,7 @@ var a1 = [
       "prereq":"Evocation Wizard level 3rd",
       "desc":"When you cast an evocation spell that requires creatures to make a saving throw, you can give those creatures advantage on the saving throw. If they fail, they take double damage from the spell.",
       "type":"Class Boon",
-      "id":329
+      "id":331
     },
     {
       "name":"Irresistable Spell", 
@@ -2680,7 +2680,7 @@ var a1 = [
       "prereq":"Evocation Wizard level 9th",
       "desc":"If a creature would take no damage as a result of succeeding on a saving throw against an evocation spell you cast, they take half damage instead.",
       "type":"Class Boon",
-      "id":330
+      "id":332
     },
     {
       "name":"Necromancy Adept", 
@@ -2688,7 +2688,7 @@ var a1 = [
       "prereq":"Necromancy Wizard level 3rd",
       "desc":"When you use Grim Harvest, you also gain a number of temporary hit points equal to twice the spell's level.",
       "type":"Class Boon",
-      "id":331
+      "id":333
     },
     {
       "name":"Greusome Horde", 
@@ -2696,7 +2696,7 @@ var a1 = [
       "prereq":"Necromancy Wizard level 9th",
       "desc":"You may target up to two additional corpses, instead of one, when you use Undead Thralls.",
       "type":"Class Boon",
-      "id":332
+      "id":334
     },
 ];
 
