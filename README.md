@@ -1,3 +1,11 @@
+## Version 0.1
+This is the first official release! In this version, the following features were added:
+
+- Additional hyperlinking between pages
+- Ability to link to specific boons
+
+Also in this version, the Dungeons and Dragons 5th Edition Open Games License was added.
+
 ### Version 0.09
 
 In this version, the following features were added:
