@@ -1,0 +1,213 @@
+body {
+  background-color: rgb(17, 16, 17);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(243, 232, 243)
+}
+
+.flexBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.selection {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  overflow-y: scroll;
+}
+
+.selection table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+}
+
+.selection table th {
+  font-size: 16px;
+  background-color: rgb(32, 32, 32);
+  padding: 6px;
+}
+
+.selection td:nth-child(even) {
+  background-color: rgb(37, 37, 37);
+}
+
+.selection td:nth-child(odd) {
+  background-color: rgb(34, 34, 34);
+}
+
+.selection table tr {
+  padding: 8px;
+}
+
+.selection a {
+  display: block;
+  padding: 4px 6px;
+  text-decoration: none;
+  color: rgb(221, 208, 247);
+}
+
+.selection a:hover {
+  color: rgb(165, 144, 208);
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.classInfo {
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(27, 27, 27);
+  height: 100%;
+  width: 100%;
+}
+.classInfo h1 {
+  text-align: center;
+}
+
+.classInfo h2 {
+
+}
+
+.classInfo h3 {
+
+}
+
+.classInfo p {
+  font-size: 16px;
+}
+
+.classInfo a {
+  color: rgb(247, 150, 165);
+  text-decoration: none;
+}
+
+.classInfo a:hover {
+  color: rgb(182, 108, 108);
+  text-decoration: underline;
+}
+
+.classInfo li {
+  padding: 5px;
+}
+
+.classInfo table {
+  border: 1px solid rgb(16, 16, 16);
+}
+
+.classInfo table th, td {
+  text-align: center;
+}
+
+.classInfo table tr {
+  padding: 0px;
+}
+
+.classInfo table td {
+  padding: 4px;
+}
+
+.classInfo table th {
+  font-size: 16px;
+  background-color: rgb(28, 28, 28);
+  padding: 10px;
+}
+
+.classInfo table .tableName {
+  font-size: 20px;
+  background-color: rgb(24, 24, 24);
+}
+
+.classInfo tr:nth-child(even) {
+  background-color: rgb(36, 36, 36);
+}
+
+.classInfo tr:nth-child(odd) {
+  background-color: rgb(34, 34, 34);
+}
+
+.classInfo span {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.classInfo .classTitleName {
+  width: 100%;
+  padding: 8px;
+}
+
+.classInfo .classTitleName h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.classInfo .basicInfo {
+  width: 20%;
+  padding-left: 20px;
+}
+
+.classInfo .basicInfo p {
+  font-size: 14px;
+}
+
+.subclassListContainer {
+  width: 20%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: right;
+}
+
+.subclassListContainer #subclassList {
+  height: 100%;
+  width: 100%;
+}
+
+.subclassListContainer #subclassList td {
+  font-size: 12px;
+  padding: 2px;
+}
+
+#classTable {
+  align-self: left;
+  width: 75%;
+}
+
+#classTable th {
+  padding: 4px;
+  font-size: 14px;
+}
+
+#classTable td {
+  font-size: 12px;
+  padding: 2px;
+}
+
+#classTable tr:nth-child(even) {
+  background-color: rgb(38, 38, 38);
+}
+
+#classTable tr:nth-child(odd) {
+  background-color: rgb(32, 32, 32);
+}
+
+#lvl1, #lvl2, #lvl3, #lvl4, #lvl5, #lvl6, #lvl7, #lvl8, #lvl9, #lvl10, #lvl11, #lvl12, #lvl13, #lvl14, #lvl15, #lvl16, #lvl17, #lvl18, #lvl19, #lvl20 {
+  width: 100%;
+}
+
+#lvl1, #lvl2, #lvl3, #lvl4, #lvl5, #lvl6, #lvl7, #lvl8, #lvl9, #lvl10, #lvl11, #lvl12, #lvl13, #lvl14, #lvl15, #lvl16, #lvl17, #lvl18, #lvl19, #lvl20 h2 {
+  font-size: 20px;
+}
+
+#lvl1, #lvl2, #lvl3, #lvl4, #lvl5, #lvl6, #lvl7, #lvl8, #lvl9, #lvl10, #lvl11, #lvl12, #lvl13, #lvl14, #lvl15, #lvl16, #lvl17, #lvl18, #lvl19, #lvl20 p, li {
+  font-size: 14px;
+}

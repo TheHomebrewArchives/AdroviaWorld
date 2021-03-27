@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   function getData() {
     var tr;
     $.each(a1, function(k, v) {

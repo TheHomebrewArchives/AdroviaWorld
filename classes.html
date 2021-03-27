@@ -4,24 +4,284 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Classes | Adrovia</title>
-    <link href="css/index.css" rel="stylesheet" type="text/css" />
-    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <link href="css/classes.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body>
 
     <div class="titleDesc">
-      <h2>AdroviaWorld</h2>
-      <p><i>Player and GM references to play 5e: Adept</i></p>
+      <h2>Classes</h2>
+      <p><i>A reference to all classes and subclasses in 5e: Adept</i></p>
     </div>
 
     <div class="menu" id="menu">
     </div>
 
-    <div class="info">
-      <h2>Coming Soon!</h2>
+    <div class="flexBoxContainer">
+      <div class="selection">
+        <table>
+          <tr>
+             <th colspan="12">Classes</th>
+          </tr>
+          <tr>
+             <td><a onclick="classDisplay(0);" href="#Barbarian">Barbarian</a></td>
+             <td><a onclick="classDisplay(1)" href="#Bard">Bard</a></td>
+             <td><a onclick="classDisplay(2)" href="#Cleric">Cleric</a></td>
+             <td><a onclick="classDisplay(3)" href="#Druid">Druid</a></td>
+             <td><a onclick="classDisplay(4)" href="#Fighter">Fighter</a></td>
+             <td><a onclick="classDisplay(5)" href="#Monk">Monk</a></td>
+             <td><a onclick="classDisplay(6)" href="#Paladin">Paladin</a></td>
+             <td><a onclick="classDisplay(7)" href="#Ranger">Ranger</a></td>
+             <td><a onclick="classDisplay(8)" href="#Rogue">Rogue</a></td>
+             <td><a onclick="classDisplay(9)" href="#Sorcerer">Sorcerer</a></td>
+             <td><a onclick="classDisplay(10)" href="#Warlock">Warlock</a></td>
+             <td><a onclick="classDisplay(11)" href="#Wizard">Wizard</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="classInfo">
+        <div class="classTitleName">
+          <h1 id="classTitleName"></h1>
+        </div>
+        <table id="classTable">
+          <colgroup>
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:60%;">
+            <col style="width:10%;">
+            <col style="width:10%;">
+          </colgroup>
+          <tr>
+            <th>Level</th>
+            <th>Proficiency Bonus</th>
+            <th>Features</th>
+            <th>Rages</th>
+            <th>Rage Damage</th>
+          </tr>
+          <tr>
+            <td>1st</td>
+            <td>+2</td>
+            <td><a href="#Rage">Rage</a>, <a href="#UnarmoredDefense">Unarmored Defense</a></td>
+            <td>2</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>2nd</td>
+            <td>+2</td>
+            <td><a href="#DangerSense">Danger Sense</a>, <a href="#RecklessAttack">Reckless Attack</a></td>
+            <td>2</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>3rd</td>
+            <td>+2</td>
+            <td><a href="#PrimalPath">Primal Path</a></td>
+            <td>3</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>4th</td>
+            <td>+2</td>
+            <td>-</td>
+            <td>3</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td>+3</td>
+            <td><a href="#ExtraAttack">Extra Attack</a>, <a href="#FastMovement">Fast Movement</a></td>
+            <td>3</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>6th</td>
+            <td>+3</td>
+            <td><a href="#PathFeature1">Path Feature</a></td>
+            <td>4</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td>+3</td>
+            <td><a href="#FeralInstinct">Feral Instinct</a>, <a href="#InstinctivePounce">Instinctive Pounce</a></td>
+            <td>4</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>8th</td>
+            <td>+3</td>
+            <td>-</td>
+            <td>4</td>
+            <td>+2</td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td>+4</td>
+            <td><a href="#BrutalCritical1">Brutal Critical (1 die)</a></td>
+            <td>4</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>10th</td>
+            <td>+4</td>
+            <td><a href="#PathFeature2">Path Feature</a></td>
+            <td>4</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>11th</td>
+            <td>+4</td>
+            <td><a href="#RelentlessRage">Relentless Rage</a></td>
+            <td>4</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>12th</td>
+            <td>+4</td>
+            <td>-</td>
+            <td>5</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>13th</td>
+            <td>+5</td>
+            <td><a href="#BrutalCritical2">Brutal Critical (2 dice)</a></td>
+            <td>5</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>14th</td>
+            <td>+5</td>
+            <td><a href="#PathFeature3">Path Feature</a></td>
+            <td>5</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>15th</td>
+            <td>+5</td>
+            <td><a href="#PersistentRage">Persistent Rage</a></td>
+            <td>5</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>16th</td>
+            <td>+5</td>
+            <td>-</td>
+            <td>5</td>
+            <td>+4</td>
+          </tr>
+          <tr>
+            <td>17th</td>
+            <td>+6</td>
+            <td><a href="#BrutalCritical3">Brutal Critical (3 dice)</a></td>
+            <td>6</td>
+            <td>+4</td>
+          </tr>
+          <tr>
+            <td>18th</td>
+            <td>+6</td>
+            <td><a href="#IndomitableMight">Indomitable Might</a></td>
+            <td>6</td>
+            <td>+4</td>
+          </tr>
+          <tr>
+            <td>19th</td>
+            <td>+6</td>
+            <td>-</td>
+            <td>6</td>
+            <td>+4</td>
+          </tr>
+          <tr>
+            <td>20th</td>
+            <td>+6</td>
+            <td><a href="#PrimalChampion">Primal Champion</a></td>
+            <td>Unlimited</td>
+            <td>+4</td>
+          </tr>
+        </table>
+        <div class="subclassListContainer">
+          <table id="subclassList">
+
+          </table>
+        </div>
+
+        <div class="basicInfo">
+          <h3>Hit Points</h3>
+          <p><strong>Hit Dice:</strong> d<span id="hitDie"></span></p>
+          <p><strong>Hit Points per Level:</strong> <span id="hpPerLvl"></span></p>
+          <h3>Multiclassing</h3>
+          <p><strong>Ability Score Minimum:</strong> <span id="scoreMinimum"></span></p>
+          <p><strong>Other Requirements:</strong> <span id="otherRequirement"></span></p>
+        </div>
+        <div id="lvl1">
+
+        </div>
+        <div id="lvl2">
+
+        </div>
+        <div id="lvl3">
+
+        </div>
+        <div id="lvl4">
+
+        </div>
+        <div id="lvl5">
+
+        </div>
+        <div id="lvl6">
+
+        </div>
+        <div id="lvl7">
+
+        </div>
+        <div id="lvl8">
+
+        </div>
+        <div id="lvl9">
+
+        </div>
+        <div id="lvl10">
+
+        </div>
+        <div id="lvl11">
+
+        </div>
+        <div id="lvl12">
+
+        </div>
+        <div id="lvl13">
+
+        </div>
+        <div id="lvl14">
+
+        </div>
+        <div id="lvl15">
+
+        </div>
+        <div id="lvl16">
+
+        </div>
+        <div id="lvl17">
+
+        </div>
+        <div id="lvl18">
+
+        </div>
+        <div id="lvl19">
+
+        </div>
+        <div id="lvl20">
+
+        </div>
+      </div>
     </div>
-  <script src="js/menu.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="js/classArray.js"></script>
+    <script src="js/subclassArray.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>

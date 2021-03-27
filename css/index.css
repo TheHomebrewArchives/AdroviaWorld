@@ -1,7 +1,8 @@
 body {
   background-color: rgb(17, 16, 17);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Georgia', Times, serif;
   color: rgb(243, 232, 243);
+  line-height: 24px;
 }
 
 .info {
