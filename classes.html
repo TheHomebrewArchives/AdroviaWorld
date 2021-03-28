@@ -7,6 +7,10 @@
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/menu.css" rel="stylesheet" type="text/css">
     <link href="css/classes.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
@@ -21,202 +25,397 @@
     </div>
 
     <div class="flexBoxContainer">
-      <div class="selection">
-        <table>
-          <tr>
-             <th colspan="12">Classes</th>
-          </tr>
-          <tr>
-             <td><a onclick="classDisplay(0);" href="#Barbarian">Barbarian</a></td>
-             <td><a onclick="classDisplay(1)" href="#Bard">Bard</a></td>
-             <td><a onclick="classDisplay(2)" href="#Cleric">Cleric</a></td>
-             <td><a onclick="classDisplay(3)" href="#Druid">Druid</a></td>
-             <td><a onclick="classDisplay(4)" href="#Fighter">Fighter</a></td>
-             <td><a onclick="classDisplay(5)" href="#Monk">Monk</a></td>
-             <td><a onclick="classDisplay(6)" href="#Paladin">Paladin</a></td>
-             <td><a onclick="classDisplay(7)" href="#Ranger">Ranger</a></td>
-             <td><a onclick="classDisplay(8)" href="#Rogue">Rogue</a></td>
-             <td><a onclick="classDisplay(9)" href="#Sorcerer">Sorcerer</a></td>
-             <td><a onclick="classDisplay(10)" href="#Warlock">Warlock</a></td>
-             <td><a onclick="classDisplay(11)" href="#Wizard">Wizard</a></td>
-          </tr>
-        </table>
-      </div>
 
       <div class="classInfo">
         <div class="classTitleName">
-          <h1 id="classTitleName"></h1>
+          <table>
+            <th><span><h1 id="classTitleName">Barbarian</h1></span></th>
+          </table>
+          <div class="classDropdown">
+            <table>
+              <tr>
+                <td onclick="classDisplay(0)" href="#Barbarian">Barbarian</td>
+                <td onclick="classDisplay(1)" href="#Bard">Bard</td>
+                <td onclick="classDisplay(2)" href="#Cleric">Cleric</td>
+                <td onclick="classDisplay(3)" href="#Druid">Druid</td>
+                <td onclick="classDisplay(4)" href="#Fighter">Fighter</td>
+                <td onclick="classDisplay(5)" href="#Monk">Monk</td>
+                <td onclick="classDisplay(6)" href="#Paladin">Paladin</td>
+                <td onclick="classDisplay(7)" href="#Ranger">Ranger</td>
+                <td onclick="classDisplay(8)" href="#Rogue">Rogue</td>
+                <td onclick="classDisplay(9)" href="#Sorcerer">Sorcerer</td>
+                <td onclick="classDisplay(10)" href="#Warlock">Warlock</td>
+                <td onclick="classDisplay(11)" href="#Wizard">Wizard</td>
+              </tr>
+            </table>
+
+          </div>
         </div>
         <table id="classTable">
           <colgroup>
             <col style="width:10%;">
             <col style="width:10%;">
-            <col style="width:60%;">
-            <col style="width:10%;">
-            <col style="width:10%;">
+            <col style="width:30%;">
+            <col style="width:8%;">
+            <col style="width:8%;">
           </colgroup>
+          <tr>
+            <th colspan="5"></th>
+            <th colspan="9"><i>Spell Slots per Spell Level</i></th>
+          </tr>
           <tr>
             <th>Level</th>
             <th>Proficiency Bonus</th>
             <th>Features</th>
-            <th>Rages</th>
-            <th>Rage Damage</th>
+            <th>Cantrips Known</th>
+            <th>Spells Known</th>
+            <th>1st</th>
+            <th>2nd</th>
+            <th>3rd</th>
+            <th>4th</th>
+            <th>5th</th>
+            <th>6th</th>
+            <th>7th</th>
+            <th>8th</th>
+            <th>9th</th>
           </tr>
           <tr>
             <td>1st</td>
             <td>+2</td>
-            <td><a href="#Rage">Rage</a>, <a href="#UnarmoredDefense">Unarmored Defense</a></td>
+            <td><a href="#BardicInspiration1">Bardic Inspiration (d6)</a>, <a href="#Spellcasting">Spellcasting</a></td>
             <td>2</td>
-            <td>+2</td>
+            <td>4</td>
+            <td>2</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>2nd</td>
             <td>+2</td>
-            <td><a href="#DangerSense">Danger Sense</a>, <a href="#RecklessAttack">Reckless Attack</a></td>
+            <td><a href="#JackofAllTrades">Jack of All Trades</a>, <a href="#SongofRest1">Song of Rest (d6)</a></td>
             <td>2</td>
-            <td>+2</td>
+            <td>5</td>
+            <td>3</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>3rd</td>
             <td>+2</td>
-            <td><a href="#PrimalPath">Primal Path</a></td>
-            <td>3</td>
-            <td>+2</td>
+            <td><a href="#BardCollege">Bard College</a></td>
+            <td>2</td>
+            <td>6</td>
+            <td>4</td>
+            <td>2</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>4th</td>
             <td>+2</td>
-            <td>-</td>
+            <td>—</td>
             <td>3</td>
-            <td>+2</td>
+            <td>7</td>
+            <td>4</td>
+            <td>3</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>5th</td>
             <td>+3</td>
-            <td><a href="#ExtraAttack">Extra Attack</a>, <a href="#FastMovement">Fast Movement</a></td>
+            <td><a href="#BardicInspiration2">Bardic Inspiration (d8)</a></td>
             <td>3</td>
-            <td>+2</td>
+            <td>8</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>6th</td>
             <td>+3</td>
-            <td><a href="#PathFeature1">Path Feature</a></td>
+            <td><a href="#Countercharm">Countercharm</a>, <a href="#BardCollegeFeature1">Bard College Feature</a></td>
+            <td>3</td>
+            <td>9</td>
             <td>4</td>
-            <td>+2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>7th</td>
             <td>+3</td>
-            <td><a href="#FeralInstinct">Feral Instinct</a>, <a href="#InstinctivePounce">Instinctive Pounce</a></td>
+            <td><a href="#FontofInspiration">Font of Inspiration</a></td>
+            <td>3</td>
+            <td>10</td>
             <td>4</td>
-            <td>+2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>8th</td>
             <td>+3</td>
-            <td>-</td>
+            <td>—</td>
+            <td>3</td>
+            <td>11</td>
             <td>4</td>
-            <td>+2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>9th</td>
             <td>+4</td>
-            <td><a href="#BrutalCritical1">Brutal Critical (1 die)</a></td>
+            <td><a href="#SongofRest2">Song of Rest (1d8)</a></td>
+            <td>3</td>
+            <td>12</td>
             <td>4</td>
-            <td>+3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>10th</td>
             <td>+4</td>
-            <td><a href="#PathFeature2">Path Feature</a></td>
+            <td><a href="#BardicInspiration3">Bardic Inspiration (d10)</a>, <a href="#Expertise2">Expertise</a>, <a href="#MagicalSecrets1">Magical Secrets</a></td>
             <td>4</td>
-            <td>+3</td>
+            <td>14</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>11th</td>
             <td>+4</td>
-            <td><a href="#RelentlessRage">Relentless Rage</a></td>
+            <td>—</td>
             <td>4</td>
-            <td>+3</td>
+            <td>15</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>12th</td>
             <td>+4</td>
-            <td>-</td>
-            <td>5</td>
-            <td>+3</td>
+            <td>—</td>
+            <td>4</td>
+            <td>15</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>13th</td>
             <td>+5</td>
-            <td><a href="#BrutalCritical2">Brutal Critical (2 dice)</a></td>
-            <td>5</td>
-            <td>+3</td>
+            <td><a href="#SongofRest3">Song of Rest (d10)</a></td>
+            <td>4</td>
+            <td>16</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>14th</td>
             <td>+5</td>
-            <td><a href="#PathFeature3">Path Feature</a></td>
-            <td>5</td>
-            <td>+3</td>
+            <td><a href="#MagicalSecrets2">Magical Secrets</a>, <a href="#BardCollegeFeature2">Bard College Feature</a></td>
+            <td>4</td>
+            <td>18</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>—</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>15th</td>
             <td>+5</td>
-            <td><a href="#PersistentRage">Persistent Rage</a></td>
-            <td>5</td>
-            <td>+3</td>
+            <td><a href="#BardicInspiration4">Bardic Inspiration (d12)</a></td>
+            <td>4</td>
+            <td>19</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>16th</td>
             <td>+5</td>
-            <td>-</td>
-            <td>5</td>
-            <td>+4</td>
+            <td>—</td>
+            <td>4</td>
+            <td>19</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>—</td>
           </tr>
           <tr>
             <td>17th</td>
             <td>+6</td>
-            <td><a href="#BrutalCritical3">Brutal Critical (3 dice)</a></td>
-            <td>6</td>
-            <td>+4</td>
+            <td><a href="#SongofRest4">Song of Rest (d12)</a></td>
+            <td>4</td>
+            <td>20</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>18th</td>
             <td>+6</td>
-            <td><a href="#IndomitableMight">Indomitable Might</a></td>
-            <td>6</td>
-            <td>+4</td>
+            <td><a href="#MagicalSecrets3">Magical Secrets</a></td>
+            <td>4</td>
+            <td>22</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>19th</td>
             <td>+6</td>
-            <td>-</td>
-            <td>6</td>
-            <td>+4</td>
+            <td>—</td>
+            <td>4</td>
+            <td>22</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>20th</td>
             <td>+6</td>
-            <td><a href="#PrimalChampion">Primal Champion</a></td>
-            <td>Unlimited</td>
-            <td>+4</td>
+            <td><a href="#SuperiorInspiration">Superior Inspiration</a></td>
+            <td>4</td>
+            <td>22</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
         </table>
         <div class="subclassListContainer">
           <table id="subclassList">
 
           </table>
+          <div class="basicInfo">
+            <h3>Hit Points</h3>
+            <hr>
+            <p><strong>Hit Dice:</strong> d<span id="hitDie"></span></p>
+            <p><strong>Hit Points per Level:</strong> <span id="hpPerLvl"></span></p>
+            <h3>Multiclassing</h3>
+            <hr>
+            <p><strong>Ability Score Minimum:</strong> <span id="scoreMinimum"></span></p>
+            <p><strong>Other Requirements:</strong> <span id="otherRequirement"></span></p>
+          </div>
         </div>
 
-        <div class="basicInfo">
-          <h3>Hit Points</h3>
-          <p><strong>Hit Dice:</strong> d<span id="hitDie"></span></p>
-          <p><strong>Hit Points per Level:</strong> <span id="hpPerLvl"></span></p>
-          <h3>Multiclassing</h3>
-          <p><strong>Ability Score Minimum:</strong> <span id="scoreMinimum"></span></p>
-          <p><strong>Other Requirements:</strong> <span id="otherRequirement"></span></p>
-        </div>
         <div id="lvl1">
 
         </div>

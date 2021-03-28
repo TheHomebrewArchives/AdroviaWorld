@@ -1,8 +1,27 @@
+### Version 0.12
+
+#### Features
+
+- Favicon added
+- More appealing table css added
+
+#### Content
+
+- The Bard class, along with its Eloquence, Glamour, Lore, Swords, Valor, and Whispers subclasses were added.
+
 ### Version 0.11
 
-In this version, the infrastructure for classes was added! All that is needed now is to add them in. Barbarian has already been added, so you can get the gist of how the other classes will look.
+#### Features
 
-Additionally, a change to hit points for classes was added. You no longer add your Constitution modifier to maximum hit points, and most classes have fewer hit points overall, and a smaller hit die. Those changes have already been added to all classes.
+- The infrastructure to add and view classes was added
+
+#### Content
+
+- The Barbarian class, along with its Ancestral Guardian, Berserker, Storm Herald, Totem Warrior, and Zealot subclasses were added
+
+#### Rules
+
+- A change to class hit points was added. You no longer add your Constitution modifier to maximum hit points, and most classes have fewer hit points overall, and a smaller hit die.
 
 ## Version 0.1
 This is the first official release! In this version, the following features were added:

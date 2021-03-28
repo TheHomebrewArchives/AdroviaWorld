@@ -36,6 +36,12 @@ function pathDisplay(x) {
   document.getElementById("lvl14").innerHTML = primalPaths[x].pathfeature3;
 }
 
+function collegeDisplay(x) {
+  document.getElementById("lvl3").innerHTML = bardColleges[x].bardCollege;
+  document.getElementById("lvl6").innerHTML = bardColleges[x].collegeFeature1;
+  document.getElementById("lvl14").innerHTML = bardColleges[x].collegeFeature2;
+}
+
 $(document).ready(function() {
   classDisplay(0);
 });

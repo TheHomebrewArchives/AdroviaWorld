@@ -1,60 +1,42 @@
-body {
-  background-color: rgb(17, 16, 17);
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(243, 232, 243)
-}
-
 .flexBoxContainer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.selection {
-  height: 100%;
+.classTitleName {
   width: 100%;
-  background-color: rgb(37, 37, 37);
-  overflow-y: scroll;
+  align-content: center;
+  padding-bottom: 10px;
 }
 
-.selection table {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-size: 14px;
-  background-color: rgb(37, 37, 37);
-  text-align: center;
+.classTitleName h1::after {
+  content: " +";
 }
 
-.selection table th {
-  font-size: 16px;
-  background-color: rgb(32, 32, 32);
-  padding: 6px;
-}
-
-.selection td:nth-child(even) {
-  background-color: rgb(37, 37, 37);
-}
-
-.selection td:nth-child(odd) {
-  background-color: rgb(34, 34, 34);
-}
-
-.selection table tr {
-  padding: 8px;
-}
-
-.selection a {
-  display: block;
-  padding: 4px 6px;
-  text-decoration: none;
-  color: rgb(221, 208, 247);
-}
-
-.selection a:hover {
-  color: rgb(165, 144, 208);
-  background-color: rgba(0, 0, 0, 0.2);
+.classTitleName h1::after:hover {
   cursor: pointer;
+}
+
+.classDropdown {
+  display: none;
+  z-index: 1;
+  width: 100%;
+}
+
+.classTitleName table {
+  position: relative;
+  width: 100%;
+  align-self: right;
+}
+
+.classDropdown table td:hover {
+  background-color: rgb(28, 28, 28);
+  cursor: pointer;
+}
+
+.classTitleName:hover .classDropdown {
+  display: inline-block;
 }
 
 .classInfo {
@@ -82,7 +64,7 @@ body {
 }
 
 .classInfo p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .classInfo a {
@@ -97,41 +79,8 @@ body {
 
 .classInfo li {
   padding: 5px;
-}
+  font-size: 14px;
 
-.classInfo table {
-  border: 1px solid rgb(16, 16, 16);
-}
-
-.classInfo table th, td {
-  text-align: center;
-}
-
-.classInfo table tr {
-  padding: 0px;
-}
-
-.classInfo table td {
-  padding: 4px;
-}
-
-.classInfo table th {
-  font-size: 16px;
-  background-color: rgb(28, 28, 28);
-  padding: 10px;
-}
-
-.classInfo table .tableName {
-  font-size: 20px;
-  background-color: rgb(24, 24, 24);
-}
-
-.classInfo tr:nth-child(even) {
-  background-color: rgb(36, 36, 36);
-}
-
-.classInfo tr:nth-child(odd) {
-  background-color: rgb(34, 34, 34);
 }
 
 .classInfo span {
@@ -140,30 +89,24 @@ body {
   display: inline;
 }
 
-.classInfo .classTitleName {
-  width: 100%;
-  padding: 8px;
-}
-
-.classInfo .classTitleName h1 {
-  font-size: 28px;
-  text-align: center;
-}
 
 .classInfo .basicInfo {
-  width: 20%;
-  padding-left: 20px;
+  width: 100%;
 }
 
 .classInfo .basicInfo p {
-  font-size: 14px;
+  font-size: 12px;
+  padding-right: 2px;
+}
+
+.classInfo .basicInfo h3 {
+  font-size: 18px;
 }
 
 .subclassListContainer {
-  width: 20%;
-  height: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 24%;
+  height: 20%;
+  margin-left: 1%;
   align-self: right;
 }
 
@@ -174,7 +117,6 @@ body {
 
 .subclassListContainer #subclassList td {
   font-size: 12px;
-  padding: 2px;
 }
 
 #classTable {
@@ -183,21 +125,13 @@ body {
 }
 
 #classTable th {
-  padding: 4px;
+  padding: 1%;
   font-size: 14px;
 }
 
 #classTable td {
   font-size: 12px;
   padding: 2px;
-}
-
-#classTable tr:nth-child(even) {
-  background-color: rgb(38, 38, 38);
-}
-
-#classTable tr:nth-child(odd) {
-  background-color: rgb(32, 32, 32);
 }
 
 #lvl1, #lvl2, #lvl3, #lvl4, #lvl5, #lvl6, #lvl7, #lvl8, #lvl9, #lvl10, #lvl11, #lvl12, #lvl13, #lvl14, #lvl15, #lvl16, #lvl17, #lvl18, #lvl19, #lvl20 {
