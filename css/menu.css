@@ -13,8 +13,8 @@
 .menu li a {
   display: block;
   color: white;
-  font-size: 20px;
-  padding: 14px 32px;
+  font-size: 16px;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
@@ -49,15 +49,15 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 8px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  min-width: 10%;
+  min-width: 8%;
 }
 
 .menu a:hover, .dropdown:hover .dropbtn {
@@ -70,6 +70,8 @@
   position: absolute;
   background-color: rgb(37, 37, 37);
   z-index: 1;
+  box-shadow: 4px 4px 8px rgb(22, 22, 22);
+  border-left: 4px solid rgb(16, 16, 16);
 }
 
 .dropdown-content a {
@@ -82,7 +84,8 @@
 
 .dropbtn::after{
   content: ' ˅';
-  font-size: 16px;
+  font-size: 12px;
+  font-family: Arial;
 }
 
 .dropdown-content a:hover {

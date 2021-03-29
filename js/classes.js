@@ -42,6 +42,24 @@ function collegeDisplay(x) {
   document.getElementById("lvl14").innerHTML = bardColleges[x].collegeFeature2;
 }
 
-$(document).ready(function() {
-  classDisplay(0);
-});
+function domainDisplay(x) {
+  document.getElementById("lvl1").innerHTML = divineDomains[x].divineDomain;
+  document.getElementById("lvl2").innerHTML = divineDomains[x].divineDomainFeature1;
+  document.getElementById("lvl6").innerHTML = divineDomains[x].divineDomainFeature2;
+  document.getElementById("lvl8").innerHTML = divineDomains[x].divineDomainFeature3;
+  document.getElementById("lvl17").innerHTML = divineDomains[x].divineDomainFeature4;
+}
+
+function circleDisplay(x) {
+  document.getElementById("lvl2").innerHTML = druidCircles[x].druidCircle;
+  document.getElementById("lvl6").innerHTML = druidCircles[x].druidCircleFeature1;
+  document.getElementById("lvl10").innerHTML = druidCircles[x].druidCircleFeature2;
+  document.getElementById("lvl14").innerHTML = druidCircles[x].druidCircleFeature3;
+}
+
+function originDisplay(x) {
+  document.getElementById("lvl1").innerHTML = sorcerousOrigins[x].sorcerousOrigin;
+  document.getElementById("lvl6").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature1;
+  document.getElementById("lvl14").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature2;
+  document.getElementById("lvl18").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature3;
+}

@@ -40,15 +40,10 @@ tr:nth-child(odd) {
   background-color: rgb(32, 32, 32);
 }
 
-
 .classTitleName {
   width: 100%;
   align-content: center;
   padding-bottom: 10px;
-}
-
-.classTitleName h1::after {
-  content: " +";
 }
 
 .classTitleName h1::after:hover {

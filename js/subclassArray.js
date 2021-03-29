@@ -1,3 +1,5 @@
+//Barbarian Subclasses
+
 primalPaths = [
   {
     "primalPath":"<h2 id='PrimalPath'>Primal Path</h2><hr><p>At 3rd level, you choose a path that shapes the nature of your rage from the list of available paths. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p><h2>Path of the Ancestral Guardian</h2><hr><p>Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger in the world as mighty spirits, who can guide and protect the living. When a barbarian who follows this path rages, the barbarian contacts the spirit world and calls on these guardian spirits for aid.</p><p>Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.</p><h2>Ancestral Protectors</h2><hr><p><i>Path of the Ancestral Guardian Feature</i></p><p>Starting when you choose this path at 3rd level, spectral warriors appear when you enter your rage. While you're raging, the first creature you hit with an attack on your turn becomes the target of the warriors, which hinder its attacks. Until the start of your next turn, that target has disadvantage on any attack roll that isn't against you, and when the target hits a creature other than you with an attack, that creature has resistance to the damage dealt by the attack. The effect on the target ends early if your rage ends.</p>",
@@ -31,6 +33,8 @@ primalPaths = [
   }
 ]
 
+//Bard Subclasses
+
 bardColleges = [
   {
     "bardCollege":"<h2 id='BardCollege'>Bard College</h2><hr><p>At 3rd level, you delve into the advanced techniques of a bard college of your choice from the list of available colleges. Your choice grants you features at 3rd level and again at 6th and 14th level.</p><h2>College of Eloquence</h2><hr><p>Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.</p><h2>Silver Tongue</h2><hr><p><i>College of Eloquence Feature</i></p><p>You are a master at saying the right thing at the right time. When you make a Charisma (Persuasion) or Charisma (Deception) check, you can treat a d20 roll of 9 or lower as a 10.</p><h2>Unsettling Words</h2><hr><p><i>College of Eloquence Feature</i></p><p>You can spin words laced with magic that unsettle a creature and cause it to doubt itself. As a bonus action, you can expend one use of your Bardic Inspiration and choose one creature you can see within 20 meters of you. Roll the Bardic Inspiration die. The creature must subtract the number rolled from the next saving throw it makes before the start of your next turn.</p><h2 id='Expertise1'>Expertise</h2><hr><p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p><p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p>",
@@ -61,5 +65,39 @@ bardColleges = [
     "bardCollege":"<h2 id='BardCollege'>Bard College</h2><hr><p>At 3rd level, you delve into the advanced techniques of a bard college of your choice from the list of available colleges. Your choice grants you features at 3rd level and again at 6th and 14th level.</p><h2>College of Whispers</h2><hr><p>Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.</p><p>Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.</p><h2>Psychic Blades</h2><hr><p><i>College of Whispers Feature</i></p><p>When you join the College of Whispers at 3rd level, you gain the ability to make your weapon attacks magically toxic to a creature's mind.</p><p>When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an extra 2d6 psychic damage to that target. You can do so only once per round on your turn.</p><p>The psychic damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 4d6 at 10th level, and 5d6 at 15th level.</p><h2>Words of Terror</h2><hr><p><i>College of Whispers Feature</i></p><p>At 3rd level, you learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p><p>If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p><p>If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.</p><p>Once you use this feature, you can't use it again until you finish a short or long rest.</p><h2 id='Expertise1'>Expertise</h2><hr><p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p><p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p>",
     "collegeFeature1":"<h2 id='Countercharm'>Countercharm</h2><hr><p>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 10 meters of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</p><h2 id='BardCollegeFeature1'>Bard College Feature</h2><hr><p>At 6th level, you gain a feature from your Bard College.</p><h2>Mantle of Whispers</h2><hr><p><i>College of Whispers Feature</i></p><p>At 6th level, you gain the ability to adopt a humanoid's persona. When a humanoid dies within 10 meters of you, you can magically capture its shadow using your reaction. You retain this shadow until you use it or you finish a long rest.</p><p>You can use the shadow as an action. When you do so, it vanishes, magically transforming into a disguise that appears on you. You now look like the dead person, but healthy and alive. This disguise lasts for 1 hour or until you end it as a bonus action.</p><p>While you're in the disguise, you gain access to all information that the humanoid would freely share with a casual acquaintance. Such information includes general details on its background and personal life, but doesn't include secrets. The information is enough that you can pass yourself off as the person by drawing on its memories.</p><p>Another creature can see through this disguise by succeeding on a Wisdom (Insight) check contested by your Charisma (Deception) check. You gain a +5 bonus to your check.</p><p>Once you capture a shadow with this feature, you can't capture another one with it until you finish a short or long rest.</p>",
     "collegeFeature2":"<h2 id='MagicalSecrets2'>Magical Secrets</h2><hr><p>At 14th level, choose two additional spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</p><p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</p><h2 id='BardCollegeFeature2'>Bard College Feature</h2><hr><p>At 14th level, you gain a feature from your Bard College.</p><h2>Shadow Lore</h2><hr><p><i>College of Whispers Feature</i></p><p>At 14th level, you gain the ability to weave dark magic into your words and tap into a creature's deepest fears.</p><p>As an action, you magically whisper a phrase that only one creature of your choice within 10 meters of you can hear. The target must make a Wisdom saving throw against your spell save DC. It automatically succeeds if it doesn't share a language with you or if it can't hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.</p><p>On a failed saving throw, the target is charmed by you for the next 8 hours or until you or your allies attack it, damage it, or force it to make a saving throw. It interprets the whispers as a description of its most mortifying secret. You gain no knowledge of this secret, but the target is convinced you know it.</p><p>The charmed creature obeys your commands for fear that you will reveal its secret. It won't risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.</p><p>When the effect ends, the creature has no understanding of why it held you in such fear.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>"
+  },
+]
+
+//Cleric Subclasses
+
+divineDomains = [
+  {
+    "divineDomain":"",
+    "divineDomainFeature1":"",
+    "divineDomainFeature2":"",
+    "divineDomainFeature3":"",
+    "divineDomainFeature4":"",
+  },
+]
+
+//Druid Subclasses
+
+druidCircles = [
+  {
+    "druidCircle":"",
+    "druidCircleFeature1":"",
+    "druidCircleFeature2":"",
+    "druidCircleFeature3":"",
+  }
+]
+
+//Sorcerer subclasses
+
+sorcerousOrigins = [
+  {
+    "sorcerousOrigin":"",
+    "sorcerousOriginFeature1":"",
+    "sorcerousOriginFeature2":"",
+    "sorcerousOriginFeature3":"",
   },
 ]

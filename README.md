@@ -1,13 +1,25 @@
+### Version 0.13
+
+#### Features
+
+- Improved internal organization
+- Linkable class features
+- Improved menu CSS
+
+#### Content
+
+- The Cleric, Druid, and Sorcerer base classes were added
+
 ### Version 0.12
 
 #### Features
 
 - Favicon added
-- More appealing table css added
+- More appealing table CSS added
 
 #### Content
 
-- The Bard class, along with its Eloquence, Glamour, Lore, Swords, Valor, and Whispers subclasses were added.
+- The Bard class, along with its Eloquence, Glamour, Lore, Swords, Valor, and Whispers subclasses were added
 
 ### Version 0.11
 
