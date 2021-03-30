@@ -1,3 +1,13 @@
+### Version 0.14
+
+#### Content
+
+- The Fighter, Monk, Paladin, Ranger, Rogue, Warlock, and Wizard base classes were added
+
+#### Features
+
+- Improved Boon selection CSS
+
 ### Version 0.13
 
 #### Features

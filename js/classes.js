@@ -57,9 +57,59 @@ function circleDisplay(x) {
   document.getElementById("lvl14").innerHTML = druidCircles[x].druidCircleFeature3;
 }
 
+function martialArchetypeDisplay(x) {
+  document.getElementById("lvl3").innerHTML = martialArchetypes[x].martialArchetype;
+  document.getElementById("lvl7").innerHTML = martialArchetypes[x].martialArchetypeFeature1;
+  document.getElementById("lvl10").innerHTML = martialArchetypes[x].martialArchetypeFeature2;
+  document.getElementById("lvl15").innerHTML = martialArchetypes[x].martialArchetypeFeature3;
+  document.getElementById("lvl18").innerHTML = martialArchetypes[x].martialArchetypeFeature4;
+}
+
+function monasticTraditionDisplay(x) {
+  document.getElementById("lvl3").innerHTML = monasticTraditions[x].monasticTradition;
+  document.getElementById("lvl6").innerHTML = monasticTraditions[x].monasticTraditionFeature1;
+  document.getElementById("lvl10").innerHTML = monasticTraditions[x].monasticTraditionFeature2;
+  document.getElementById("lvl17").innerHTML = monasticTraditions[x].monasticTraditionFeature3;
+}
+
+function sacredOathDisplay(x) {
+  document.getElementById("lvl3").innerHTML = sacredOaths[x].sacredOath;
+  document.getElementById("lvl7").innerHTML = sacredOaths[x].sacredOathFeature1;
+  document.getElementById("lvl15").innerHTML = sacredOaths[x].sacredOathFeature2;
+  document.getElementById("lvl20").innerHTML = sacredOaths[x].sacredOathFeature3;
+}
+
+function rangerArchetypeDisplay(x) {
+  document.getElementById("lvl3").innerHTML = rangerArchetypes[x].rangerArchetype;
+  document.getElementById("lvl7").innerHTML = rangerArchetypes[x].rangerArchetypeFeature1;
+  document.getElementById("lvl11").innerHTML = rangerArchetypes[x].rangerArchetypeFeature2;
+  document.getElementById("lvl15").innerHTML = rangerArchetypes[x].rangerArchetypeFeature3;
+}
+
+function roguishArchetypeDisplay(x) {
+  document.getElementById("lvl3").innerHTML = roguishArchetypes[x].roguishArchetype;
+  document.getElementById("lvl9").innerHTML = roguishArchetypes[x].roguishArchetypeFeature1;
+  document.getElementById("lvl13").innerHTML = roguishArchetypes[x].roguishArchetypeFeature2;
+  document.getElementById("lvl17").innerHTML = roguishArchetypes[x].roguishArchetypeFeature3;
+}
+
 function originDisplay(x) {
   document.getElementById("lvl1").innerHTML = sorcerousOrigins[x].sorcerousOrigin;
   document.getElementById("lvl6").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature1;
   document.getElementById("lvl14").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature2;
   document.getElementById("lvl18").innerHTML = sorcerousOrigins[x].sorcerousOriginFeature3;
+}
+
+function patronDisplay(x) {
+  document.getElementById("lvl1").innerHTML = otherworldlyPatrons[x].otherworldlyPatron;
+  document.getElementById("lvl6").innerHTML = otherworldlyPatrons[x].otherworldlyPatronFeature1;
+  document.getElementById("lvl10").innerHTML = otherworldlyPatrons[x].otherworldlyPatronFeature2;
+  document.getElementById("lvl14").innerHTML = otherworldlyPatrons[x].otherworldlyPatronFeature3;
+}
+
+function arcaneTraditionDisplay(x) {
+  document.getElementById("lvl2").innerHTML = arcaneTraditions[x].arcaneTradition;
+  document.getElementById("lvl6").innerHTML = arcaneTraditions[x].arcaneTraditionFeature1;
+  document.getElementById("lvl10").innerHTML = arcaneTraditions[x].arcaneTraditionFeature2;
+  document.getElementById("lvl14").innerHTML = arcaneTraditions[x].arcaneTraditionFeature3;
 }
